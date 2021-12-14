@@ -4,4 +4,7 @@
 sudo apt-get install python3.9-dev
 sudo apt-het install python-pip
 ```
-2. 依此類推
+2. 我輸入了以下程式碼...
+3. ...
+# Output 截圖
+![](./picture.png)
