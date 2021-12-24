@@ -89,3 +89,6 @@ python3 main.py
 ```sh
 The balance of address 0x0000000000000000000000000000000000000000 is 10000000000000000000000 wei
 ```
+
+## OUTPUT 截圖
+![](./snapshot01.png)
