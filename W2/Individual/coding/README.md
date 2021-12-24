@@ -6,9 +6,7 @@
 ```sh
 brew install python3
 ```
-:::info
-以上為 macOS 安裝方式。
-:::
+
 再安裝虛擬環境：
 ```sh
 pip install virtualenv
