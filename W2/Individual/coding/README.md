@@ -1,6 +1,6 @@
 # 個人開發實作
 
-- 開發環境:macOS 12.1
+開發環境:macOS 12.1
 
 ## 安裝 Py-EVM
 
@@ -12,33 +12,33 @@
 
   為了專案可能相依其他專案而建造獨立環境來執行檔案，就不受安裝套件的影響。
 
-  1. 安裝 virtualenv
+    - 安裝 virtualenv
 
-  `pip install virtualenv`
+    `pip install virtualenv`
 
-  **錯誤**
-  `command not found: pip`
+    **錯誤**
+    `command not found: pip`
 
-  **改成**
-  `pip3 install virtualenv`
+    **改成**
+    `pip3 install virtualenv`
 
-  2. 建立新專案的資料夾，須將路徑維持在此專案資料夾內。
+    - 建立新專案的資料夾，須將路徑維持在此專案資料夾內。
 
-  `mkdir py-evm`
+    `mkdir py-evm`
 
-  3. 在這個空間中建立虛擬環境
+    3. 在這個空間中建立虛擬環境
 
-  `virtualenv -p python3 venv`
+    `virtualenv -p python3 venv`
 
-  **錯誤**
-  `command not found: virtualenv`
+    **錯誤**
+    `command not found: virtualenv`
 
-  **改成**
-  `python3 -m virtualenv venv`
+    **改成**
+    `python3 -m virtualenv venv`
 
-  4. 啟動虛擬環境
+    4. 啟動虛擬環境
 
-  `. venv/bin/activate`
+    `. venv/bin/activate`
 
 2. 確保有最新版的 pip
 
