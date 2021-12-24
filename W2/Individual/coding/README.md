@@ -2,11 +2,13 @@
 
 開發環境:macOS 12.1
 
+
 ## 安裝 Py-EVM
 
 1. 安裝 python3
 
 `brew install python3`
+
 
 - 建立虛擬環境(選擇性)
 
@@ -40,9 +42,11 @@
 
     `. venv/bin/activate`
 
+
 2. 確保有最新版的 pip
 
 `pip3 install -U pip`
+
 
 3. 安裝 py-evm
 
@@ -55,9 +59,11 @@
 
 `git clone https://github.com/ethereum/ethereum-python-project-template.git demo-app`
 
+
 2. 移動到 demo-app
 
 `cd demo-app`
+
 
 3. 修改 setup.py
 
@@ -70,9 +76,11 @@ install_requires=[
 
 **'<PYPI_NAME>' 改成 'demo-app'**
 
+
 4. 安裝 dependencies
 
 `pip install -e ".[dev]"`
+
 
 5. 建立 app 資料夾和編輯 main.py 檔案
 
@@ -126,9 +134,11 @@ print("The balance of address {} is {} wei".format(
 The balance of address 0x0000000000000000000000000000000000000000 is 10000000000000000000000 wei
 ```
 
+
 6. 執行 script
 
 `python3 app/main.py`
+
 
 **錯誤**
 ```
