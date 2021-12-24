@@ -7,7 +7,7 @@
 
 1. 安裝 python3
 
-`brew install python3`
+   `brew install python3`
 
 
 - 建立虛擬環境(選擇性)
