@@ -15,7 +15,6 @@
   為了專案可能相依其他專案而建造獨立環境來執行檔案，就不受安裝套件的影響。
 
     1. 安裝 virtualenv
-
     `pip install virtualenv`
 
     **錯誤**
@@ -25,11 +24,9 @@
     `pip3 install virtualenv`
 
     2. 建立新專案的資料夾，須將路徑維持在此專案資料夾內。
-
     `mkdir py-evm`
 
     3. 在這個空間中建立虛擬環境
-
     `virtualenv -p python3 venv`
 
     **錯誤**
@@ -39,34 +36,28 @@
     `python3 -m virtualenv venv`
 
     4. 啟動虛擬環境
-
     `. venv/bin/activate`
 
 
 2. 確保有最新版的 pip
-
 `pip3 install -U pip`
 
 
 3. 安裝 py-evm
-
 `pip3 install -U py-evm`
 
 
 ## 在 local 跑起自己的區塊鏈
 
 1. 下載專案
-
 `git clone https://github.com/ethereum/ethereum-python-project-template.git demo-app`
 
 
 2. 移動到 demo-app
-
 `cd demo-app`
 
 
 3. 修改 setup.py
-
 ```
 install_requires=[
     "eth-utils>=1,<2",
@@ -78,12 +69,10 @@ install_requires=[
 
 
 4. 安裝 dependencies
-
 `pip install -e ".[dev]"`
 
 
 5. 建立 app 資料夾和編輯 main.py 檔案
-
 ```
 from eth import constants
 
@@ -136,7 +125,6 @@ The balance of address 0x0000000000000000000000000000000000000000 is 10000000000
 
 
 6. 執行 script
-
 `python3 app/main.py`
 
 
