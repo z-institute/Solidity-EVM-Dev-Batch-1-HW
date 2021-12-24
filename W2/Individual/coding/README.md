@@ -68,7 +68,7 @@ install_requires=[
 ],
 ```
 
-** '<PYPI_NAME>' 改成 'demo-app' **
+**'<PYPI_NAME>' 改成 'demo-app'**
 
 4. 安裝 dependencies
 
