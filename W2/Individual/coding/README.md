@@ -8,7 +8,7 @@
 
 `brew install python3`
 
-  - 建立虛擬環境(選擇性)
+- 建立虛擬環境(選擇性)
 
   為了專案可能相依其他專案而建造獨立環境來執行檔案，就不受安裝套件的影響。
 
@@ -26,7 +26,7 @@
 
     `mkdir py-evm`
 
-    3. 在這個空間中建立虛擬環境
+    - 在這個空間中建立虛擬環境
 
     `virtualenv -p python3 venv`
 
@@ -36,7 +36,7 @@
     **改成**
     `python3 -m virtualenv venv`
 
-    4. 啟動虛擬環境
+    - 啟動虛擬環境
 
     `. venv/bin/activate`
 
