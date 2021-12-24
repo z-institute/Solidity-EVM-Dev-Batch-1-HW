@@ -12,7 +12,7 @@
 
   為了專案可能相依其他專案而建造獨立環境來執行檔案，就不受安裝套件的影響。
 
-    - 安裝 virtualenv
+    1. 安裝 virtualenv
 
     `pip install virtualenv`
 
@@ -22,11 +22,11 @@
     **改成**
     `pip3 install virtualenv`
 
-    - 建立新專案的資料夾，須將路徑維持在此專案資料夾內。
+    2. 建立新專案的資料夾，須將路徑維持在此專案資料夾內。
 
     `mkdir py-evm`
 
-    - 在這個空間中建立虛擬環境
+    3. 在這個空間中建立虛擬環境
 
     `virtualenv -p python3 venv`
 
@@ -36,7 +36,7 @@
     **改成**
     `python3 -m virtualenv venv`
 
-    - 啟動虛擬環境
+    4. 啟動虛擬環境
 
     `. venv/bin/activate`
 
