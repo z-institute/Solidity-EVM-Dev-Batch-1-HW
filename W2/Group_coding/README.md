@@ -29,3 +29,7 @@ from eth.db.atomic import AtomicDB
  
 # Output 截圖
 ![](./picture.png)
+
+#加分題
+![image](https://user-images.githubusercontent.com/7067720/147390927-c480e7bd-4178-48aa-b092-25baa50bf16d.png)
+![image](https://user-images.githubusercontent.com/7067720/147391103-d3f2e321-3aed-45aa-baf9-38416344e91d.png)
