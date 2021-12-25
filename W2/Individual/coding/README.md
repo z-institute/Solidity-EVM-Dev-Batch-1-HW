@@ -1,13 +1,13 @@
 
 ENV: Ubuntu
-#Step:
+# Step:
 
-#Install Python tools
+# Install Python tools
 1. apt-get install update
 2. apt-get install python3.9-dev
 3. apt-get install python3-pip
 
-#Install py-evm
+# Install py-evm
 1. pip install virtualenv
 2. virtualenv -p python3 venv
 3. export PATH="xxxxxx/.local/bin:$PATH"
@@ -15,7 +15,7 @@ ENV: Ubuntu
 5. pip3 install -U pip
 6. pip3 install -U py-evm
 
-#App example
+# App example
 1. git clone https://github.com/ethereum/ethereum-python-project-template.git demo-app
 2. cd demo-app
 3. modify setup.py
