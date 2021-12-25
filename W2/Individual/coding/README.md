@@ -53,7 +53,7 @@ docker-compose up -d
 docker exec -it demo-app sh
 ```
 
-- install the dependencies,
+- install the dependencies
 ```shell
 pip install -e ".[dev]"
 ```
