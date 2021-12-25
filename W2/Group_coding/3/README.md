@@ -15,14 +15,14 @@
 ```
   - 一個程序開啟
 ```
-    npx hardhat node
+    $ npx hardhat node
 ```
   - 另一個程序　
 ```
-    npx hardhat run --network local scripts/sample-script.js
-    Greeter deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
-    Changing greeting
-    Greeting changed!
+    $ npx hardhat run --network local scripts/sample-script.js
+      Greeter deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+      Changing greeting
+      Greeting changed!
 ```
 
 # Output 截圖
