@@ -1,4 +1,4 @@
-# 程式碼步驟簡易說明
+# 程式碼步驟簡易說明 (加分題)
   - hardhat.config.js 設定
 ```
     module.exports = {
