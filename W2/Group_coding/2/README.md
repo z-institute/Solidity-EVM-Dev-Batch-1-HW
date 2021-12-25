@@ -68,4 +68,4 @@
 ```
 
 # Output 截圖
-![](./Group_W2_HW_2_1.png)
+![](./Group_W2_HW_2_1.jpg)
