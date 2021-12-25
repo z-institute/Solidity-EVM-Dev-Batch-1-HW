@@ -1,7 +1,7 @@
 version: "3.8"
 services:
-  demo-app:
-    container_name: demo-app
+  w2_individual_hw_2:
+    container_name: w2_individual_hw_2
     tty: true
     stdin_open: true
     working_dir: /app

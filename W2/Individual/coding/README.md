@@ -19,8 +19,8 @@ EOF
 cat << EOF > docker-compose.yaml
 version: "3.8"
 services:
-  demo-app:
-    container_name: demo-app
+  w2_individual_hw_2:
+    container_name: w2_individual_hw_2
     tty: true
     stdin_open: true
     working_dir: /app
@@ -31,7 +31,6 @@ services:
         - PYTHON_VERSION=3.9.9
     volumes:
       - ./demo-app:/app
-
 EOF
 ```
 - modify setup.py
@@ -50,7 +49,7 @@ docker-compose up -d
 
 -  start python container sh session
 ```shell
-docker exec -it demo-app sh
+docker exec -it w2_individual_hw_2 sh
 ```
 
 - install the dependencies
