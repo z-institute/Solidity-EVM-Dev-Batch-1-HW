@@ -7,6 +7,6 @@
   
 
 - 團體作業
-  - [客製化自己的區塊鏈](/W2/Group_coding/README.md)
-  - [mining process](/W2/Group_coding/README.md)
-  - [加分題](/W2/Group_coding/README.md)
+  - [客製化自己的區塊鏈](/W2/Group_coding/hw_1/README.md)
+  - [mining process](/W2/Group_coding/hw_2/README.md)
+  - [加分題](/W2/Group_coding/hw_3/README.md)
