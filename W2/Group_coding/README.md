@@ -1,3 +1,22 @@
+#Homework-1
+
+GENESIS_STATE = {
+    SOME_ADDRESS: {
+        "balance": to_wei(20000, 'ether'),
+        "nonce": 0,
+        "code": b'',
+        "storage": {}
+    }
+}
+
+GENESIS_PARAMS = {
+    'difficulty': constants.GENESIS_DIFFICULTY,
+    'gas_limit': 3141592,
+}
+
+
+
+#Homework-2
 # 程式碼步驟簡易說明
 1.Update include path
 from eth.chains.base import MiningChain
