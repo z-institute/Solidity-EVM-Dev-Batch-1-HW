@@ -1,17 +1,27 @@
-下載hardhat
+#### 1.下載hardhat
+```
 npm install --save-dev hardhat
 npm install --save-dev @tenderly/hardhat-tenderly
+```
 
-windows到官網下載tenderly.exe 放在資料夾
+#### 2.windows到官網下載tenderly.exe 放在資料夾
 
-系統提示有缺hardhat-waffle
+#### 3.系統提示有缺hardhat-waffle
+```
 npm install --save-dev @nomiclabs/hardhat-waffle
+```
 
-Deploy
+#### 4.Deploy
+```
 npx hardhat run ./scripts/sample-script.js
+```
 
+#### 5.跑本機節點
+```
 npx hardhat node 跑local節點(root權限)
+```
 
+#### 6.export
 npx hardhat run --network local scripts/sample-script.js
 
 tenderly export init
