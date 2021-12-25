@@ -1,10 +1,12 @@
 # 程式碼步驟簡易說明
-1. 我輸入了以下程式碼安裝 python3
-```
-sudo apt-get install python3.9-dev
-sudo apt-het install python-pip
-```
-2. 我輸入了以下程式碼...
-3. ...
+1.Update include path
+from eth.chains.base import MiningChain
+from eth.db.atomic import AtomicDB
+
+2.run command 
+  python3 mine_pow_nonce.py
+
+3.result
+ 
 # Output 截圖
 ![](./picture.png)
