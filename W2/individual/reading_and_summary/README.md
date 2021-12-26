@@ -6,6 +6,7 @@
   - 可以在有防範的前提下，揭露漏洞，預告在哪個Block做升級，這樣才不會造成在Ethereum上交易的不信任，也能讓節點運營商能充份準備
 
 ## 2. [How to retrieve tokens stuck in a crowdsale?](https://forum.openzeppelin.com/t/how-to-retrieve-tokens-stuck-in-a-crowdsale/3959)
+  (1) 實作 Interface 合約 (不花 Gas Fee)
   - 為防止Token發送到non-support Token合約而造成資金損失的問題，合約添加 ERC165 的 instance (solidity 0.7以上版本)
   - 繼承 ERC165 的合約，能透過 ERC20 selector 檢查 type(IERC20).interfaceId
 ```
@@ -32,3 +33,6 @@
     require(token.transfer(to, amount), "Transfer failed");
   }
 ```
+  (2) 利用 low level call function，呼叫其它的智能合約，例如 SafeERC20，若失敗就被 revert，可減少發生 stuck 問題 (consume Gas Fee)
+  (3) 利用 estimateGas, 若有 gas 產出，表示合約能被 deploy
+  (4) 在 Mainnet fork 上，嚐試各種解決 stuck 的方式
