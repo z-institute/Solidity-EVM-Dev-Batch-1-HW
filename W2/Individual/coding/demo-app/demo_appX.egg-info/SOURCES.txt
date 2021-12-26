@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements-docs.txt
+setup.py
+demo_appX.egg-info/PKG-INFO
+demo_appX.egg-info/SOURCES.txt
+demo_appX.egg-info/dependency_links.txt
+demo_appX.egg-info/not-zip-safe
+demo_appX.egg-info/requires.txt
+demo_appX.egg-info/top_level.txt
