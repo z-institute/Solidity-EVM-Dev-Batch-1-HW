@@ -79,10 +79,10 @@ GENESIS_PARAMS = {
      # accelerate mining
     'difficulty': 1,
     # add data like bitcoin genesis block
-    'extra_data': bytes('This blockchain is created on 2021/12/25 00:00 by Ethan, Walter, Lemonde..', 'utf-8'),
+    'extra_data': bytes('This blockchain is created on 2021/12/25 00:00 by Ethan, Walter, Lemonde.', 'utf-8'),
 }
 
-# Send founders 1000000 ETH
+# send founders 1000000 ETH
 GENESIS_STATE = {
     ETHAN_ADDRESS: {
         "balance": FOUNDER_INITIAL_BALANCE,
