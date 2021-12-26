@@ -44,10 +44,10 @@ with open('./README.md') as readme:
 
 
 setup(
-    name='<PYPI_NAME>',
+    name='demo-app',
     # *IMPORTANT*: Don't manually change the version here. Use `make bump`, as described in readme
     version='0.1.0-alpha.0',
-    description="""<PYPI_NAME>: <SHORT_DESCRIPTION>""",
+    description="""demo-app: <SHORT_DESCRIPTION>""",
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='The Ethereum Foundation',
@@ -55,7 +55,8 @@ setup(
     url='https://github.com/ethereum/<REPO_NAME>',
     include_package_data=True,
     install_requires=[
-        "eth-utils>=2,<3",
+        "eth-utils>=1,<2",
+        "py-evm==0.5.0a0",
     ],
     python_requires='>=3.6, <4',
     extras_require=extras_require,
