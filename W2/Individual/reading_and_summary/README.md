@@ -9,7 +9,7 @@
 
 ### How to prevent
 # 與主要的節點提供者(Ex. Infura、Alchemy) 建立有效的溝通橋樑，使重大消息能夠即使反應
-# 建立舊版本停止提供服務的機制(Ex. Zcash Deprecation Policy 新版本發布後大約 16 週(基於 block height)自動停止)
+# 建立舊版本停止提供服務的機制(Ex. [Zcash Deprecation Policy]((https://github.com/zcash/zcash#ledger-deprecation-policy)) 新版本發布後大約 16 週(基於 block height)自動停止)
 
 ## 2. [How to retrieve tokens stuck in a crowdsale?](https://forum.openzeppelin.com/t/how-to-retrieve-tokens-stuck-in-a-crowdsale/3959)
 ### Summary
