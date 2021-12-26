@@ -1,4 +1,4 @@
-# Steps for run demp-app in Linux Debian 11
+# Steps for run py-evm demp-app in Linux Debian 11
 
 OS version: Debian GNU/Linux 11
 
@@ -37,6 +37,11 @@ excute command and enter answers:
 
 5. Add the Py-EVM library as a dependency
 To add Py-EVM as a dependency, open the `setup.py` file in the root directory of the application and change the install_requires section as follows.
+using `vim` edit `setup.py`
+```
+~# vim setup.py
+```
+
 ```python=
 # ...
 install_requires=[
@@ -100,7 +105,7 @@ print("The balance of address {} is {} wei".format(
 ```
 
 ## Running the script
-Let’s run the script by invoking the following command.
+9. Let’s run the script by invoking the following command.
 ```
 python app/main.py
 ```
