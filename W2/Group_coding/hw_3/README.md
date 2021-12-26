@@ -1,9 +1,36 @@
 # 程式碼步驟簡易說明 
+To isolate the local environment, using docker workflow.
 
-- install tenderly
+- create nodejs Dockerfile
 ```shell
-brew tap tenderly/tenderly
-brew install tenderly
+cat << EOF > Dockerfile
+ARG NODEJS_VERSION
+FROM node:\${NODEJS_VERSION}-alpine as local
+RUN apk --no-cache add curl
+RUN curl https://raw.githubusercontent.com/Tenderly/tenderly-cli/master/scripts/install-linux.sh | sh
+EOF
+```
+- create docker-compose.yaml
+```shell
+version: "3.8"
+services:
+  w2_group_coding_hw_3:
+    container_name: w2_group_coding_hw_3
+    tty: true
+    stdin_open: true
+    working_dir: /app
+    entrypoint: /bin/sh
+    build:
+      context: .
+      args:
+        - NODEJS_VERSION=gallium
+    volumes:
+      - ./:/app
+```
+
+- start nodejs container sh session
+```shell
+docker exec -it w2_group_coding_hw_3 sh
 ```
 
 - create a package.json file
@@ -32,19 +59,20 @@ require("@tenderly/hardhat-tenderly")
     address: greeter.address
   });
 ```
-- login tenderly
-```shell
-tenderly login
-```
 
-- start local node
+- open another session and start local node
 ```shell
-npx hardhat node
+docker exec -it w2_group_coding_hw_3 npx hardhat node
 ```
 
 - deploy contract to local node
 ```shell
 npx hardhat run --network local scripts/sample-script.js
+```
+
+- login tenderly
+```shell
+tenderly login
 ```
 
 - tenderly export set up  
