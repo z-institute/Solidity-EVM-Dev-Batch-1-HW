@@ -2,7 +2,11 @@
 
 OS version: Debian GNU/Linux 11
 
-## prepare enviroment
+## Reference
+- [Py-EVM Quickstart](https://py-evm.readthedocs.io/en/latest/guides/quickstart.html)
+- [Building an app that uses Py-EVM](https://py-evm.readthedocs.io/en/latest/guides/building_an_app_that_uses_pyevm.html)
+
+## Prepare enviroment
 
 1. install packages
 ```
@@ -57,7 +61,6 @@ install_requires=[
 ```
 ~# pip install -e ".[dev]"
 ```
-
 
 ## Writing the application code:
 7. create a new directory `app`
