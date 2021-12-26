@@ -62,17 +62,17 @@ install_requires=[
 ~# pip install -e ".[dev]"
 ```
 
-## Writing the application code:
+## Writing the application code
 7. create a new directory `app`
 ```
 ~# mkdir app
 ```
 
-8. create a file `main.py` in directory `app` in and paste code below:
+8. create a file `main.py` in directory `app` and paste code below:
 ```
 ~# vim app/main.py
 ```
-reference file: [`main.py`](./main.py)
+reference file: [`main.py`](./demo-app/app/main.py)
 ```python=
 from eth import constants
 from eth.chains.mainnet import MainnetChain
