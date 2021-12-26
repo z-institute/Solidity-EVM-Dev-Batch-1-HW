@@ -20,7 +20,9 @@ GENESIS_PARAMS = {
 ```
 
 使用 GENESIS_PARAMS ByzantiumVM
+
 **from eth import MiningChain 改成 from eth.chains.base import MiningChain**
+
 **from eth.db.backends.memory import AtomicDB 改成 from eth.db.atomic import AtomicDB**
 ```
 from eth.chains.base import MiningChain
