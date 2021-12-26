@@ -115,3 +115,4 @@ chain.apply_transaction(signed_tx)
 
 ## 3.加分題
 
+![](./local.PNG)
