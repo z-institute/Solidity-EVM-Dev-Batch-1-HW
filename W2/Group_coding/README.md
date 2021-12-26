@@ -147,11 +147,11 @@ print (block)
 ![](./snapshot001.png)
 
 ## HW3
-![](./hw3.png)
+![](./snapshot002.png)
 
 ## Troubleshoot
 1. There has some params became un-configurable in py-evm during London refactor
-![](./troubleshoot1.png)
-![](./troubleshoot2.png)
-![](./troubleshoot3.png)
+![](./snapshot003.png)
+![](./snapshot004.png)
+![](./snapshot005.png)
 > reference: https://github.com/ethereum/eth-tester/blob/master/eth_tester/backends/pyevm/main.py#L136
