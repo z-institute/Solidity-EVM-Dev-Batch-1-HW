@@ -110,7 +110,7 @@ chain = MainnetChain.from_genesis(AtomicDB(), GENESIS_PARAMS, GENESIS_STATE)
 
 ## HW2: Retrieving a valid nonce and mix hash
 
-Run python shell and type code below：
+Run python shell and type code below ref: [`mine_pow_nonce.py`](./mine_pow_nonce.py)：
 ```python=
 from eth import constants
 from eth.consensus.pow import mine_pow_nonce
