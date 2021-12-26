@@ -1,10 +1,10 @@
 # 團體開發實作
 
-## 客製化參數設計想法
+## 1.客製化參數設計想法
 
 如果是開發私有鏈，可以把 difficulty 設很低，減少區塊產生需要的時間。
 
-## mining process
+## 2.mining process
 
 ### Retrieving a valid nonce and mix hash
 
