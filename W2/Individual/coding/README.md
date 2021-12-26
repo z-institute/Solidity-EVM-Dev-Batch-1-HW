@@ -1,6 +1,4 @@
-# 安裝 Py-EVM 且實作app
-
-### Mac os
+rc os
 
 1. install Python 3 with brew
 
