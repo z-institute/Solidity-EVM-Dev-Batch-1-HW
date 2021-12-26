@@ -15,6 +15,6 @@
 - 合約已經部署 mainnet 且未實作安全機制，導致 token 卡在合約內無法退還
 
 ### how to prevent
-- 寫測試程式，並且在部署 mainnet 前先在 mainnet fork 測試
-- 使用 openzeppelin 提供的 SafeERC20 內的 safeTransfer function
-- 實作 ERC165 確認合約是否有 withdrawToOwner function
+- 寫足夠多的測試程式，並且在部署 mainnet 前先在 mainnet fork 測試
+- 使用 openzeppelin 提供的 SafeERC20 內的 `safeTransfer` function
+- 實作 ERC165 確認合約是否有 `withdrawToOwner` function
