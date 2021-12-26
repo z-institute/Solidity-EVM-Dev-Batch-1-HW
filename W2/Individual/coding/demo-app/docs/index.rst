@@ -1,7 +1,7 @@
-<PROJECT_NAME>
+demo-hw
 ==============================
 
-<SHORT_DESCRIPTION>
+homework
 
 Contents
 --------
@@ -9,7 +9,7 @@ Contents
 .. toctree::
     :maxdepth: 3
 
-    <MODULE_NAME>
+    demo-hw
     release_notes
 
 
