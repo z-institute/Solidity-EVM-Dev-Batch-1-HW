@@ -6,13 +6,12 @@
 ## 安裝 Py-EVM
 
 1. 安裝 python3
-
    `brew install python3`
 
 
-- 建立虛擬環境(選擇性)
+2. 建立虛擬環境(選擇性)
 
-  為了專案可能相依其他專案而建造獨立環境來執行檔案，就不受安裝套件的影響。
+   為了專案可能相依其他專案而建造獨立環境來執行檔案，就不受安裝套件的影響。
 
     1. 安裝 virtualenv
        `pip install virtualenv`
@@ -39,11 +38,11 @@
        `. venv/bin/activate`
 
 
-2. 確保有最新版的 pip
+3. 確保有最新版的 pip
    `pip3 install -U pip`
 
 
-3. 安裝 py-evm
+4. 安裝 py-evm
    `pip3 install -U py-evm`
 
 
