@@ -74,3 +74,11 @@ To release a new version:
 ```sh
 make release bump=$$VERSION_PART_TO_BUMP$$
 ```
+
+### Screenshot 
+
+
+![alt text](https://user-images.githubusercontent.com/56249189/147386398-89f35ffc-68d9-4174-85fc-2f794dc1a4aa.png)
+
+
+
