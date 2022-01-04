@@ -13,3 +13,7 @@ git add .
 git commit -m "<commit 訊息紀錄用的>"
 git push
 ```
+# 每週優秀作業
+## Week 2
+1. [Walter](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124003/W2/individual)
+2. [Anber](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124006/W2/Individual)
