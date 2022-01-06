@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  w3_group_coding_hw_1_ganache:
+    image: trufflesuite/ganache-cli:latest
+    env_file:
+      - .env
+    container_name: w3_group_coding_hw_1_ganache
+    ports:
+      - "8545:8545"
+    command:
+      - "--fork"
+      - "${ETH_MAINNET_RPC_URL}"
+

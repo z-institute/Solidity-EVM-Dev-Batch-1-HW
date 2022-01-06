@@ -1,5 +1,5 @@
 {
-  "name": "coding",
+  "name": "hw_1",
   "version": "1.0.0",
   "description": "- init ```shell npm init -y ``` # Output 截圖 ![]()",
   "main": "index.js",
@@ -16,5 +16,8 @@
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.2",
     "hardhat": "^2.8.0"
+  },
+  "dependencies": {
+    "dotenv-safe": "^8.2.0"
   }
 }

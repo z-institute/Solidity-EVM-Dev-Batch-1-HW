@@ -12,6 +12,7 @@ EOF
 ```
 - create docker-compose.yaml
 ```shell
+cat << EOF > docker-compose.yaml
 version: "3.8"
 services:
   w2_group_coding_hw_3:
@@ -26,6 +27,7 @@ services:
         - NODEJS_VERSION=gallium
     volumes:
       - ./:/app
+EOF
 ```
 
 - start nodejs container sh session
