@@ -29,16 +29,22 @@ services:
 EOF
 ```
 
+- run docker
+```shell
+docker-compose up -d 
+```
+
 - start nodejs container sh session
 ```shell
 docker exec -it w3_group_coding_hw_1 sh
 ```
 
-## hardhat mainnet fork
-- init project 
+- init project
 ```shell
 npm init -y
 ```
+
+## hardhat mainnet fork
 
 - install hardhat
 ```shell
@@ -46,10 +52,10 @@ npm install --save-dev hardhat
 ```
 - install dotenv-safe
 ```shell
-npm install --save dotenv-safe
+npm install --save-dev surya
 ```
 
-- init hardhat select `Create a sample project`
+- init hardhat select `Create an advanced sample project that uses TypeScript`
 ```shell
 npx hardhat
 ```
@@ -89,6 +95,11 @@ services:
       - "--fork"
       - "\${ETH_MAINNET_RPC_URL}"
 EOF
+```
+
+- run docker
+```shell
+docker-compose -f docker-compose.ganache.yaml up -d 
 ```
 
 - set your mainnet rpc url

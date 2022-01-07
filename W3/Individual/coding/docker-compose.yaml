@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  w3_individual_coding:
+    container_name: w3_individual_coding
+    tty: true
+    stdin_open: true
+    working_dir: /app
+    entrypoint: /bin/sh
+    build:
+      context: .
+      args:
+        - NODEJS_VERSION=gallium
+    volumes:
+      - ./:/app
