@@ -15,6 +15,7 @@
         - Deploy & Run Transactions 可選擇環境、Account、Gas limit、Message value、Contract，並做 Deploy
           左下方的 Deployed Contracts 可操作各種 Read/Write function
           右下方的訊息，則是 command line 的輸出結果
+
       2.VS Code
         - 微軟提供的免費開發工具，可安裝 solidity 開發的以下相關Plugins
         - Solidity
@@ -22,6 +23,7 @@
         - Solidity Debugger
         - Solidity Metrics
         - Solidity Visual Developer
+
       3.Ganache
         - 從官網下載安裝
         - 開啟Ganache之後，把workspace的server設定好
@@ -32,6 +34,7 @@
         - 配合 truff-config.js 內的 development 設定，把 ganache 當成一個私有鏈
         - 啟動即提供10個100ETH的帳號
         - delploy後的相關 block, transaction ... 均可在UI介面中找到
+
       4.Truffle
         - 安裝
           npm install -g truffle
@@ -63,6 +66,7 @@
         - truffle migrate # 部屬
         - truffle migrate --reset
         - truffle console
+        
       5.infura
         - 先完成註冊，建立一個新的 Project
         - 完成後，Project 會生成一個 PROJECT SECRET
