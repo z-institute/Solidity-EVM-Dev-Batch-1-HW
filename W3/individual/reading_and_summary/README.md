@@ -40,27 +40,25 @@
           cd project_name
           truffle init
         - 設定 truffle-config.js 的 networks, compiles
-```
-module.exports = {
-  networks: {
-    development: {
-     host: "127.0.0.1",     // Localhost (default: none)
-     port: 7545,            // Standard Ethereum port (default: none)
-     network_id: "*",       // Any network (default: none)
-    },
-  },
+          module.exports = {
+            networks: {
+              development: {
+               host: "127.0.0.1",     // Localhost (default: none)
+               port: 7545,            // Standard Ethereum port (default: none)
+               network_id: "*",       // Any network (default: none)
+              },
+            },
 
-  compilers: {
-    solc: {
-      version: "0.8.10",    // Fetch exact version from solc-bin (default: truffle's version)
-       optimizer: {
-         enabled: true,
-         runs: 200
-       },
-    }
-  },
-};
-```        
+            compilers: {
+              solc: {
+                version: "0.8.10",    // Fetch exact version from solc-bin (default: truffle's version)
+                 optimizer: {
+                   enabled: true,
+                   runs: 200
+                 },
+              }
+            },
+          };
         - truffle compile # 編譯
         - truffle migrate # 部屬
         - truffle migrate --reset
@@ -71,18 +69,16 @@ module.exports = {
         - 在 ENDPOINTS 可選擇不用的環境 Deploy
         - yarn add truffle-hdwallet-provider
         - 在 truffle-config.js 完成設定
-```
-networks: {
-  ropsten: {
-    provider: function () {
-      return new HDWalletProvider("MetaMask助記詞<-這個不要用好了，感覺很危險", "拿到的endpoint");
-  },
-  network_id: '3',
-    development: {
-     host: "127.0.0.1",     // Localhost (default: none)
-     port: 7545,            // Standard Ethereum port (default: none)
-     network_id: "*",       // Any network (default: none)
-    },
-  },
-```
+          networks: {
+            ropsten: {
+              provider: function () {
+                return new HDWalletProvider("MetaMask助記詞<-這個不要用好了，感覺很危險", "拿到的endpoint");
+            },
+            network_id: '3',
+              development: {
+               host: "127.0.0.1",     // Localhost (default: none)
+               port: 7545,            // Standard Ethereum port (default: none)
+               network_id: "*",       // Any network (default: none)
+              },
+            },
         - 佈署 truffle migrate --network ropsten
