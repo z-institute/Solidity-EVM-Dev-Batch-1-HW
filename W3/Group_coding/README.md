@@ -9,7 +9,7 @@ npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/<key>
 
 Started HTTP and WebSocket JSON-RPC server at http://127.0.0.1:8545/
 
-# Accounts
+### Accounts
 
 WARNING: These accounts, and their private keys, are publicly known.
 Any funds sent to them on Mainnet or any other live network WILL BE LOST.
@@ -76,3 +76,9 @@ Private Key: 0xdf57089febbacf7ba0bc227dafbffa9fc08a93fdc68e1e42411a14efcf23656e
 
 WARNING: These accounts, and their private keys, are publicly known.
 Any funds sent to them on Mainnet or any other live network WILL BE LOST.
+
+## Ganache-cli fork
+
+```
+ganache-cli --fork https://mainnet.infura.io/v3/<MY_API_KEY>@7559773.
+```
