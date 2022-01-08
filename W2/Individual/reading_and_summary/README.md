@@ -7,3 +7,9 @@ Summary: Geth在某個版本更新中加了對分裂（分叉）避免的code，
 2. How to retrieve tokens stuck in a crowdsale?
 讓智能合約都implente 一個interface，而這個interface中的transfer method 必須有回傳值，如果method執行後成功會回傳一個值ex: true, 而失敗應該會是ex: false。因為交易是atomic，如果失敗可以回滾。
 
+=======
+﻿# 閱讀資料 Summary
+## 1. [Ethereum Hard Fork Bug that split Ethereum’s chain in two](https://www.coindesk.com/tech/2020/11/11/ethereums-unannounced-hard-fork-was-trying-to-prevent-the-very-disruption-it-caused/)
+- 寫下你的總結
+## 2. [How to retrieve tokens stuck in a crowdsale?](https://forum.openzeppelin.com/t/how-to-retrieve-tokens-stuck-in-a-crowdsale/3959)
+- 寫下你的總結
