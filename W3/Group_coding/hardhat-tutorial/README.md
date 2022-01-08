@@ -21,5 +21,7 @@ npx hardhat --network localhost test
 ```
 
 ### 4.server 成功跑在 http://127.0.0.1:8545/ 之後照以下選項輸入MetaMask並挑選其中一個帳戶匯入私鑰即可看到餘額有10000ETH
-
-
+![](./p1.png)
+![](./p2.png)
+![](./p3.png)
+![](./p4.png)
