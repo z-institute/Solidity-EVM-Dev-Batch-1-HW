@@ -79,6 +79,20 @@ Any funds sent to them on Mainnet or any other live network WILL BE LOST.
 
 ## Ganache-cli fork
 
+#### Installation
+
+ganache-cli is written in JavaScript and distributed as a Node.js package via npm. Make sure you have Node.js (>= v8) installed.
+
+#### Using npm:
+
+```
+npm install -g ganache-cli
+or, if you are using Yarn:
+
+yarn global add ganache-cli
+```
+
 ```
 ganache-cli --fork https://mainnet.infura.io/v3/<MY_API_KEY>@7559773.
+ganache-cli -d -f https://mainnet.infura.io
 ```
