@@ -11,4 +11,15 @@
 
 
 ## 2. [https://consensys.github.io/smart-contract-best-practices/](https://consensys.github.io/smart-contract-best-practices/)
-- 寫下你的總結
+
+基本理念
+開發智能合需要保持合約的邏輯易懂，還有了解區塊鏈的特性
+
+安全：
+需要知道怎喔預防駭客攻擊
+
+標記外部合約
+當調用外部合約時因標記它們並備註
+
+軟體開發技巧
+升級有問題的合約
