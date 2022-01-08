@@ -1,3 +1,4 @@
+# Step
 ### 1.根據hardhat-tutorial完成compile、test等步驟
 ### 2.modify hardhat.config.js
 ```
