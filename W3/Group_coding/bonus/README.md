@@ -21,7 +21,7 @@ Chain ID: 1
 ~# npm install -g pm2
 ```
 
-3. create file `ganache.js` (reference file: [`ganache.js`])
+3. create file `ganache.js` (reference file: [`ganache.js`](./ganache.js))
 ```
 const ganache = require('ganache');
 
