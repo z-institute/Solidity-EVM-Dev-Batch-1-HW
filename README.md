@@ -3,6 +3,7 @@ This is Ethan Homework Page.
 
 ## TOC
 - [W2](W2/README.md)
+- [W3](W3/README.md)
 
 ## Authors
 
