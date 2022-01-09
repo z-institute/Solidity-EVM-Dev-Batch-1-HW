@@ -10,7 +10,7 @@ Chain ID: 1
 ![](./pic1.jpg)
 ![](./pic2.jpg)
 
-## 自動化及優化
+## 自動化重啟
 1. install `ganache`
 ```
 ~# npm install -g ganache@latest
@@ -67,3 +67,19 @@ module.exports = {
 ~# pm2 start ecosystem.config.js
 ```
 ![](./pic3.jpg)
+
+
+## 優化
+發現以下幾個專案能夠幫助開發：
+
+1. [Godmode Ganache](https://github.com/martinetlee/godmode-for-test)
+可以在 Mainnet fork 獲得特定合約的操作權限、修改 state 等
+該專案提供以下項目的範例：
+- MakerDao
+- Uniswap
+- Compound
+
+此專案能夠提供開發過程中更多的測試條件
+
+2. [ganache-jest-example](https://github.com/adrianmcli/ganache-jest-example)
+整合 `Jest` 、 `Ganache` ，提供輕量級的測試環境，幫助智能合約的開發。
