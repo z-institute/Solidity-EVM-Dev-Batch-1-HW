@@ -43,8 +43,6 @@ docker exec -it w3_individual_coding
 npm init -y
 ```
 
-
-- 
 ## tools
 
 ### hardhat

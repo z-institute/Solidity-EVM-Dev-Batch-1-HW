@@ -1,0 +1,15 @@
+{
+  "name": "hw_2",
+  "version": "1.0.0",
+  "description": "Mainnet fork with Oracle Cloud. Oracle Cloud has many free cloud services. [free tier](https://www.oracle.com/cloud/free) ## 1 - create a free computing instance and open ingress   ``` ssh -i ~/.ssh/z-institute-mainnet-fork-ssh-key.key opc@152.70.103.239 ``` ## 2 - install nodejs and ganache-cli ```shell sudo yum update curl –sL https://rpm.nodesource.com/setup_16.x | sudo bash - sudo yum install –y nodejs sudo npm install -g ganache-cli ``` - run ganache and tail logs ```shell nohup ganache-cli --fork https://mainnet.infura.io/v3/128da609d4284200abfb61efc6ebc545 --chainId 1 -h 0.0.0.0 & tail -f nohup.out ``` - retrieve block number from local ```shell ssh -i ~/.ssh/z-institute-mainnet-fork-ssh-key.key opc@152.70.103.239 curl 0.0.0.0:8545 -X POST --data '{\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[],\"id\":1}' ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ethan Yeh",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.6.1"
+  }
+}
