@@ -35,3 +35,25 @@
 * Also, we can retrieve it
 
   ![remix](./remix/remix_04.png)
+
+## Infura
+
+* Create new project![infura_01](./infura/infura_01.png)
+* ![infura_02](./infura/infura_02.png)
+* set credit card and select Add-On for free![infura_03](./infura/infura_03.png)
+* ![infura_04](./infura/infura_04.png)
+
+## Ganache
+
+* ```npm install ganache-cli@latest --global```
+* ![ganache_01](./ganache/ganache_01.png)
+* ![ganache_02](./ganache/ganache_02.png)
+
+## Hardhat
+
+* ![hardhat_01](./hardhat/hardhat_01.png)
+* ![hardhat_02](./hardhat/hardhat_02.png)
+
+## Slither
+
+* ![slither](./slither.png)
