@@ -27,6 +27,12 @@ ganache-cli -f https://mainnet.infura.io/v3/<key> -p 7545 --defaultBalanceEther 
 ![](p3.png)
 ![](p4.png)
 
+- Chain ID 不能用 1 解決方式 : --chainId 1
+
+```
+ganache-cli -f https://mainnet.infura.io/v3/<key> -p 7545 --defaultBalanceEther 5000 --chainId 1
+```
+
 # mainnet fork with Linode
 ### 創建 linode 帳號並建立一台VM
 ![image](https://user-images.githubusercontent.com/70627447/148682304-c83033bc-35eb-4390-b479-5c23f86d447f.png)
