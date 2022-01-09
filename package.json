@@ -1,0 +1,24 @@
+{
+  "name": "solidity-evm-dev-batch-1-hw",
+  "version": "0.0.1",
+  "description": "",
+  "main": "\"\"",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/issues"
+  },
+  "homepage": "https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW#readme",
+  "devDependencies": {
+    "ganache": "^7.0.0-beta.2",
+    "ganache-cli": "^6.12.2"
+  },
+  "dependencies": {
+    "ganache-core": "^2.13.2"
+  }
+}
