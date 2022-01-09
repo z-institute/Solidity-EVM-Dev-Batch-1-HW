@@ -12,5 +12,3 @@ crontab
 -------
   0 0     * * *   root    ~/.start.sh
 ```
-
-  b. 客製化這個 fork 還能如何優化
