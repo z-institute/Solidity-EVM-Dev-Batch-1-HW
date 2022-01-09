@@ -18,3 +18,20 @@ window系統需至官網額外下載graphviz
 ![](./T3.png)
 ![](./T2.png)
 ![](./T1.png)
+
+
+_____________________________________________________________________________ 
+### hardhat/hardhat test by hardhat-tutorial
+常用語法
+```
+npm init //init
+npm install --save-dev hardhat //安裝hardhat
+npx hardhat //創立hardhat項目
+npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers //安裝測試框架
+npx hardhat accounts //產生帳戶
+npx hardhat compile //編譯
+npx hardhat test //測試
+npx hardhat run scripts/sample-script.js //部屬
+npx hardhat --network localhost test //跑節點
+```
+![](./T4.png)
