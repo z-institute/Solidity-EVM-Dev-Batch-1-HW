@@ -54,8 +54,3 @@ ganache-cli -d -f https://mainnet.infura.io/v3/<key> -p 7545 --defaultBalanceEth
 
 操作轉帳：
 ![](https://i.imgur.com/E3qfp9U.png)
-
-
---cron
-
-###### tags: `Solidity 開發班`
