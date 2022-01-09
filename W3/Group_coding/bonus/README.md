@@ -45,7 +45,7 @@ provider.on('message' , msg => {
 })
 ```
 
-4. create file `ecosystem.config.js` (reference file: [`ecosystem.config.js`])
+4. create file `ecosystem.config.js` (reference file: [`ecosystem.config.js`](./ecosystem.config.js))
 and set `0 0 * * *` in `cron_restart`, means restart script every day midnight
 ```
 module.exports = {
