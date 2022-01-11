@@ -2,6 +2,7 @@
 This is Ethan Homework Page.
 
 ## TOC
+- [Resume](resume/english/resume.pdf)
 - [W2](W2/README.md)
 - [W3](W3/README.md)
 

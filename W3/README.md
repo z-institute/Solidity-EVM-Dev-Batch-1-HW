@@ -1,4 +1,4 @@
-#[W3 課程與作業 - 以太坊生態系與相關工具](https://www.notion.so/W3-59213c08178e43b69351c93e515fb30f)
+[W3 課程與作業 - 以太坊生態系與相關工具](https://www.notion.so/W3-59213c08178e43b69351c93e515fb30f)
 
 ## 個人作業
 1. [補充閱讀](/W3/Individual/reading_and_summary/README.md)
