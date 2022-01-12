@@ -1,6 +1,6 @@
 Mainnet fork with linode
 
-1. Linux side:
+1.Linux side:
 nohup ganache-cli --fork https://mainnet.infura.io/v3/128da609d4284200abfb61efc6ebc545 --chainId 1 -h 0.0.0.0 &
 less nohup.out
 
