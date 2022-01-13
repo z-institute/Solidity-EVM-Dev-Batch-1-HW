@@ -19,3 +19,11 @@ less nohup.out
 
 2.Metamask side:
 ![image](https://user-images.githubusercontent.com/7067720/148654630-d637a85c-e1e6-49ac-8063-8f0a6413a682.png)
+
+
+
+
+3.Process manager
+
+  #install procps
+  apt install procps
