@@ -21,7 +21,7 @@ Choose five (or more) development tools mentioned in the class and try them out 
 3. [(Etha Yeh)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W3/Individual)
 # Solidity-EVM-Dev-Batch-1-HW
 ## Usage
-1. Please clone your own brach and operate on it, the following instructions are for your reference.
+1. Please clone your own brach and operate on it, the following commands are for your reference.
 ```
 git clone https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW.git --branch <學號>
 ```
