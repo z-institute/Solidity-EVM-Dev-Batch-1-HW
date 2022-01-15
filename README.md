@@ -8,7 +8,7 @@ Install [pyevm](https://py-evm.readthedocs.io/en/latest/guides/quickstart.html) 
 ### Excellent homework
 1. [(Walter)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124003/W2/individual)
 2. [(Anber)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124006/W2/Individual)
-## Week 3 : ethereum ecosystem and related tools
+## Week 3 : Ethereum ecosystem and related tools
 ### Reading
 1. https://insights.glassnode.com/defi-attacks-flash-loans-centralized-price-oracles/
 2. https://consensys.github.io/smart-contract-best-practices/
