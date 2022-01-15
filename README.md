@@ -13,7 +13,6 @@ Install [pyevm](https://py-evm.readthedocs.io/en/latest/guides/quickstart.html) 
 1. https://insights.glassnode.com/defi-attacks-flash-loans-centralized-price-oracles/
 2. https://consensys.github.io/smart-contract-best-practices/
 ### Coding
-Choose
 Choose five (or more) development tools mentioned in the class and try them out according to the Readme.
 ### Excellent homework
 1. Z21100102 [(Samuel)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124002/W3/individual)
@@ -23,14 +22,14 @@ Choose five (or more) development tools mentioned in the class and try them out 
 ## Usage
 1. Please clone your own brach and operate on it, the following commands are for your reference.
 ```
-git clone https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW.git --branch <學號>
+git clone https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW.git --branch <ID>
 ```
 2. Please add the folder like main branch and push your homework to your own folder.
 ## Github Basic Usage
 * Upload code
 ```
-cd <要上傳的程式碼所在目錄>
+cd <dir>
 git add .
-git commit -m "<commit 訊息紀錄用的>"
+git commit -m "<commit message>"
 git push
 ```
