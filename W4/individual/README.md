@@ -1,5 +1,5 @@
 ### 2. ChainShot 截圖
-   - 截圖 ![](./Self-Paced Course Programming.png)
+   - 截圖 ![](./Self-Paced_Course_Programming.png)
 
 
    知識點
