@@ -1,4 +1,10 @@
 
+
+## Lessons
+![](./chainshot.JPG)
+![](./cryptozombie-lesson-1.JPG)
+![](./cryptozombie-lesson-2.JPG)
+
 ## Summary
 - `Event`: it stores the arguments passed in transaction logs.
 - `access classifiers`
