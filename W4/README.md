@@ -3,9 +3,9 @@
 
 ## 個人作業
 1. [english resume](/resumes/english/resume.pdf)
-2. [ChainShot]()
-3. [CryptoZombie]()
+2. [ChainShot](Individual/README.md#chainshot)
+3. [CryptoZombie](Individual/README.md#cryptozombie)
 
 ## 團體作業
-1. [deploy Opyn to Optimism / Arbitrum mainnet fork]()
+1. [deploy Opyn to Optimism / Arbitrum mainnet fork](Group_coding/hw_1/README.md)
 2. [analyze Opyn architecture]()
