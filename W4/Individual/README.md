@@ -1,11 +1,11 @@
 # ChainShot
 
-![](ChainShot.png)
+![](./ChainShot.PNG)
 
 # CryptoZombies
 
-![](LV1.png)
-![](LV2.png)
+![](LV1.PNG)
+![](LV2.PNG)
 
 - A contract is the fundamental building block of Ethereum applications.
 - All solidity source code should start with a "version pragma".
