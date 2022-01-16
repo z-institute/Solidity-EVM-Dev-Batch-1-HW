@@ -3,8 +3,8 @@
 
 ## 個人作業
 1. [english resume](/resumes/english/resume.pdf)
-2. [chainshot]()
-3. [cryptozombie]()
+2. [ChainShot]()
+3. [CryptoZombie]()
 
 ## 團體作業
 1. [deploy Opyn to Optimism / Arbitrum mainnet fork]()
