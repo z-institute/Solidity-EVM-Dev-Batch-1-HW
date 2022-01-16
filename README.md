@@ -5,6 +5,7 @@ This is Ethan Homework Page.
 - [Resume](resumes/english/resume.pdf)
 - [W2](W2/README.md)
 - [W3](W3/README.md)
+- [W4](W4/README.md)
 
 ## Authors
 
