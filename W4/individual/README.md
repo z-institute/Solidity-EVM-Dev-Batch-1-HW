@@ -4,8 +4,8 @@
    - 截圖 ![](./Self-Paced_Course_Solidity.png)
 
    知識點
-   1. pure: function is isolated, does not read from anything outside itself and promises not to modify contract state.
-      view: function can read contract state but promises not to modify contract state.
+   1. `pure` function is isolated, does not read from anything outside itself and promises not to modify contract state.
+      `view` function can read contract state but promises not to modify contract state.
 ### 3. Lesson 1 Zombie Factory
    - 截圖 ![](./Lesson_1_CryptoZombie.png)
 
