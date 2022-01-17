@@ -1,7 +1,7 @@
 ### 2. ChainShot 截圖
    - 截圖 ![](./Self-Paced_Course_Programming.png)
 
-   - 截圖 ![](./Self-Paced_Course_Solidity_100%.png)
+   - 截圖 ![](./Self-Paced_Course_Solidity.png)
 
    知識點
    1. pure: function is isolated, does not read from anything outside itself and promises not to modify contract state.
