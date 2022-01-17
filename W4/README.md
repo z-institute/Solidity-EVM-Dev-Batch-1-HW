@@ -8,4 +8,4 @@
 
 ## 團體作業
 1. [deploy Opyn to Optimism / Arbitrum mainnet fork](Group_coding/hw_1/README.md)
-2. [analyze Opyn architecture]()
+2. (optional) analyze Opyn architecture (TODO)
