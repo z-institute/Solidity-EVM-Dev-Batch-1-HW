@@ -1,7 +1,7 @@
 # Set Up
 - clone Opyn Protocol and install dependencies
 ```shell
-git clone git@github.com:opynfinance/GammaProtocol.git && cd GammaProtocol && npm i
+git clone git@github.com:opynfinance/GammaProtocol.git && cd GammaProtocol && rm -rf .git && npm i
 ```
 - add `Optimism` and `Arbitrum` alchemy key into `.gitignore`
 ```shell
