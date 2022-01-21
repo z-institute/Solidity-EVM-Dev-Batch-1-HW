@@ -5,7 +5,13 @@
        optimism-mainnet-fork (alchemy)
        arbitrum-mainnet-fork (alchemy)
 ```
-- 截圖 ![](./package-json.png)
+- package.json ![](./package-json.png)
 ```
-    B.
+    B. npm run ganache (loca) 及
+       npm run ganache:polygon-mainnet-fork
+       npm run ganache:optimism-mainnet-fork
+       npm run ganache:arbitrum-mainnet-fork
+       的結果不相同，截圖如下
 ```
+- ganache ![](./ganache_local.png)
+- ganache_polygon ![](./ganache_polygon.png)
