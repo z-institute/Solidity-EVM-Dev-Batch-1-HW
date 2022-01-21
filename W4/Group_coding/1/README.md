@@ -16,6 +16,7 @@
 ```
 - npm run deploy:development
   ![](./deploy_development.png)
+- final
   ![](./deploy_development_final.png)
 
 ```
