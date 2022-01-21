@@ -11,7 +11,17 @@
        npm run ganache:polygon-mainnet-fork
        npm run ganache:optimism-mainnet-fork
        npm run ganache:arbitrum-mainnet-fork
-       的結果不相同，截圖如下
+
+    C. 在另一個Terminal 執行 npm run deploy:development       
 ```
-- ganache ![](./ganache_local.png)
-- ganache_polygon ![](./ganache_polygon.png)
+- npm run deploy:development
+  ![](./deploy_development.png)
+  ![](./deploy_development_final.png)
+
+```
+    D. npm run test:unit
+       npm run test:integration
+ ```
+- ganache (582 passing) ![](./ganache_local.png)
+
+- ganache polygon/optimism/arbitrum (581 passing, 1 failing 三個結果均相同) ![](./ganache_polygon.png)
