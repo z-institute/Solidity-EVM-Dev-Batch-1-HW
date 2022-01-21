@@ -2,4 +2,4 @@
 
     A. 在 package.json 的 script 增加以下的內容
 
-    - 截圖 ![](./package_json.png)
+    截圖 ![](./package_json.png)
