@@ -23,6 +23,7 @@
        npm run test:integration
        會有兩種不同的結果，在 local 跑，能執行所有 582 個測試
        但在 polygon/optimism/arbitrum mainnet-fork，只能跑出 581 個測試，有一個 fail
+       (這部份希望 Tina 能協助解決)
 ```
 - ganache (582 passing) ![](./ganache_local.png)
 
