@@ -14,10 +14,8 @@
 
     C. 在另一個Terminal 執行 npm run deploy:development       
 ```
-- npm run deploy:development
-  ![](./deploy_development.png)
-- final
-  ![](./deploy_development_final.png)
+- npm run deploy:development ![](./deploy_development.png)
+  final ![](./deploy_development_final.png)
 
 ```
     D. npm run test:unit
