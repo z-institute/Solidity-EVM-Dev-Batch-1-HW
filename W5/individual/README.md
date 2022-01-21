@@ -21,6 +21,7 @@ contract MyTokenV1 is Initializable, ERC20Upgradeable, UUPSUpgradeable, OwnableU
   /// @custom:oz-upgrades-unsafe-allow constructor
   constructor() initializer {}
 
+  // To authorize the owner to upgrade the contract we implement _authorizeUpgrade with the onlyOwner modifier.
   function _authorizeUpgrade(address) internal override onlyOwner {}
 }
 ```
@@ -49,6 +50,6 @@ describe('MyToken', function () {
 });
 ```
 
-   - 截圖 ![](./npx_hardhat_test.png)
+   - 截圖 ![](./uups_1.png)
 
 ### 2. 試跑此專案提供成功跑起的 DApp 截圖，簡述 Chainlink VRF 運作原理
