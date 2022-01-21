@@ -21,7 +21,13 @@
 ```
     D. npm run test:unit
        npm run test:integration
- ```
+       會有兩種不同的結果，在 local 跑，能執行所有 582 個測試
+       但在 polygon/optimism/arbitrum mainnet-fork，只能跑出 581 個測試，有一個 fail
+```
 - ganache (582 passing) ![](./ganache_local.png)
 
 - ganache polygon/optimism/arbitrum (581 passing, 1 failing 三個結果均相同) ![](./ganache_polygon.png)
+
+```
+    E. npm run coverage
+```
