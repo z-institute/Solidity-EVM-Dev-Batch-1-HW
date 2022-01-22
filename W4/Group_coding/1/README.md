@@ -32,3 +32,9 @@
 ```
     E. npm run coverage
 ```
+- npm run coverage ![](./coverage.png)
+
+```
+    F. 完成之後開啟 coverage/index.html
+```
+- coverage/index.html ![](./index_html.png)
