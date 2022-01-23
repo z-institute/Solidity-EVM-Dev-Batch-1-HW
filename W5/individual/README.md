@@ -50,7 +50,7 @@ describe('MyToken', function () {
 });
 ```
 
-   - 截圖 ![](./uups_1.png)
+   - npx hardhat test ![](./uups_1.png)
 
 ### 2. 試跑此專案提供成功跑起的 DApp 截圖，簡述 Chainlink VRF 運作原理
 
@@ -63,7 +63,7 @@ describe('MyToken', function () {
    4. 當結果和證明在鏈上發布後，可以使用預言機的公鑰和智能合約的seed進行驗證。
    5. 這個方法利用了區塊鏈著名的簽名驗證功能，合約只能使用在同一區塊鏈環境中被驗證通過的隨機數。
 ```
-   - 截圖 ![](./Chainlink_VRF.png)
+   - Chainlink VRF Graph ![](./Chainlink_VRF.png)
 
 ### 3. Follow 此教學並提供完成截圖，用自己的話寫下對 Uniswap V3 的運作模式理解
 ```
