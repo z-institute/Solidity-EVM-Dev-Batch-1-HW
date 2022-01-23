@@ -56,13 +56,16 @@ describe('MyToken', function () {
 
 
 ### 3. Follow 此教學並提供完成截圖，用自己的話寫下對 Uniswap V3 的運作模式理解
+```
    We provide 0.09 ETH and want to receive 90 DAI in return.
-   Then return 0.03078 ETH
-   So, we use 0.06 ETH to get 90DAI
+   Then return 0.03078 ETH.
+   So, we use 0.06 ETH to get 90DAI.
+```   
    - 截圖 ![](./exactInput.png)
    - 截圖 ![](./exactInput_Metamask.png)
-
+```
    We are providing 0.2 ETH and want to receive however much DAI we can get for it which happens to be 583 DAI.
+```
    - 截圖 ![](./exactOutput.png)
 
    運作模式
