@@ -71,12 +71,12 @@ describe('MyToken', function () {
    Then return 0.03078 ETH.
    So, we use 0.06 ETH to get 90DAI.
 ```   
-   - 截圖 ![](./exactInput.png)
-   - 截圖 ![](./exactIntput_Metamask.png)
+   - convertExactEthToDai() Txhash ![](./exactInput.png)
+   - Metamask receives DAIs ![](./exactIntput_Metamask.png)
 ```
    We are providing 0.2 ETH and want to receive however much DAI we can get for it which happens to be 583 DAI.
 ```
-   - 截圖 ![](./exactOutput.png)
+   - convertEthToExactDai(uint256 daiAmount) Txhash ![](./exactOutput.png)
 
    運作模式
 ```js
