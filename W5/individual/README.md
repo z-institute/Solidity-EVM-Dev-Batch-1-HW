@@ -55,6 +55,16 @@ describe('MyToken', function () {
 ### 2. 試跑此專案提供成功跑起的 DApp 截圖，簡述 Chainlink VRF 運作原理
 
 
+   Chainlink VRF 運作原理
+```
+   1. 智能合約會向Chainlink或Chainlink預言機網絡提供一個seed來請求隨機數。
+   2. 這個seed是預言機無法預測的，會被用來生成一個隨機數。
+   3. 每個預言機都會使用自己專屬的密鑰生成隨機數。
+   4. 當結果和證明在鏈上發布後，可以使用預言機的公鑰和智能合約的seed進行驗證。
+   5. 這個方法利用了區塊鏈著名的簽名驗證功能，合約只能使用在同一區塊鏈環境中被驗證通過的隨機數。
+```
+   - 截圖 ![](./Chainlink_VRF.png)
+
 ### 3. Follow 此教學並提供完成截圖，用自己的話寫下對 Uniswap V3 的運作模式理解
 ```
    We provide 0.09 ETH and want to receive 90 DAI in return.
@@ -62,7 +72,7 @@ describe('MyToken', function () {
    So, we use 0.06 ETH to get 90DAI.
 ```   
    - 截圖 ![](./exactInput.png)
-   - 截圖 ![](./exactInput_Metamask.png)
+   - 截圖 ![](./exactIntput_Metamask.png)
 ```
    We are providing 0.2 ETH and want to receive however much DAI we can get for it which happens to be 583 DAI.
 ```
