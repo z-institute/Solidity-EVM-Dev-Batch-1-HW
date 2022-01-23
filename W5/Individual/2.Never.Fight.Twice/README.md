@@ -8,5 +8,5 @@
 - 將隨機數發給 VRF 智能合約並進行隨機驗證
 - 回傳給外部應用程式的智能合約
 
-ref1:https://blog.chain.link/chainlink-vrf-on-chain-verifiable-randomness-zh/
-ref2:https://www.abmedia.io/chainlink-launches-oracle-for-provable-randomness
+#### ref1:https://blog.chain.link/chainlink-vrf-on-chain-verifiable-randomness-zh/
+#### ref2:https://www.abmedia.io/chainlink-launches-oracle-for-provable-randomness
