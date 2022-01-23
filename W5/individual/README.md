@@ -53,7 +53,12 @@ describe('MyToken', function () {
    - npx hardhat test ![](./uups_1.png)
 
 ### 2. 試跑此專案提供成功跑起的 DApp 截圖，簡述 Chainlink VRF 運作原理
-
+```js
+   1. npx hardhat compile
+   2. npx hardhat test ./test/NeverFightTwice.test.js
+   3. npx hardhat node
+   4. 
+```
 
    Chainlink VRF 運作原理
 ```
