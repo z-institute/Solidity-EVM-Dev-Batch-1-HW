@@ -10,7 +10,7 @@ git clone --depth=1  git@github.com:tina1998612/Never.Fight.Twice.git && rm -rf 
 # How does Chainlink VRF work?
 [Chainlink VRF Coordinator contract](https://github.com/smartcontractkit/chainlink/blob/develop/contracts/src/v0.6/VRFCoordinator.sol)
 
-# SetuNp
+## Step
 - Our smart contract sent a request to the Chainlink VRF coordinator that checked the request and sent the request to Chainlink oracle
 - Chainlink oracle sent randomness number to Chainlink VRF coordinator smart contract
 - Chainlink VRF coordinator smart contract verified randomness number and sent randomness number back to request a smart contract
