@@ -1,0 +1,20 @@
+{
+  "name": "mutli-sig-defender-upgrade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ethan Yeh",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@openzeppelin/hardhat-defender": "^1.6.0",
+    "@openzeppelin/hardhat-upgrades": "^1.13.0",
+    "dotenv": "^14.2.0",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.8.3"
+  }
+}
