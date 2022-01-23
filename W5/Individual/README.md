@@ -10,3 +10,8 @@ Error:
 
 ![](VRF1.png)
 ![](VRF2.png)
+
+運作原理:
+1. 向 Chainlink 要求隨機數
+2. Chainlink 的中心化 JavaScript 監聽到要求
+3. VRF Coordinator 執行 fulfillRandomnessRequest() 提供隨機數
