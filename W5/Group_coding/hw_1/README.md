@@ -7,10 +7,10 @@ follow [guide](https://docs.openzeppelin.com/defender/guide-upgrades)
 ## transfer contract ownership from deployer to gnosis multi-sig contract 
 ![](./screenshots/transfer-ownership.png)
 
-## propose upgrade Box to BoxV2
+## propose to upgrade contract from  Box to BoxV2
 ![](./screenshots/propose-upgrade.png)
 
-## click defender dashboard url and  
+## click defender dashboard url and approve proposal
 ![](./screenshots/propose-upgrade-apprval-pending-dashborad.png)
 
 ## confirm to execute 
@@ -26,4 +26,4 @@ follow [guide](https://docs.openzeppelin.com/defender/guide-upgrades)
   - proxy pattern 
 - Upgrade by single entity is not decentralize
 - Proxy contract store state, Implementation contract store logic
-- do not use the constructor instead use initialize function
+- Use initialize function instead of the constructor
