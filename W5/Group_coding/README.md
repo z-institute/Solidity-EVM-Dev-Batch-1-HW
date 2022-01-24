@@ -14,6 +14,14 @@
 ```
 - Propose Upgrade ![](./ProposeUpgrade.png)
 
+```
+  Defender
+```
+- Defender1 ![](./Defender1.png)
+- Defender2 ![](./Defender2.png)
+- Defender3 ![](./Defender3.png)
+- Defender4 ![](./Defender4.png)
+
 ### 2. 共同討論完成所有 Ethernaut 題目
 
   尚未完全做完...
