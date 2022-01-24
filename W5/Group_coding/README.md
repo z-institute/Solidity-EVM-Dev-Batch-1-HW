@@ -9,6 +9,11 @@
 ```
 - Transfer Ownership ![](./TransferOwnership.png)
 
+```
+  npx hardhat run --network rinkeby scripts/propose-upgrade.js
+```
+- Propose Upgrade ![](./ProposeUpgrade.png)
+
 ### 2. 共同討論完成所有 Ethernaut 題目
 
   尚未完全做完...
