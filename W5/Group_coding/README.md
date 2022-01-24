@@ -2,7 +2,7 @@
 ```
   npx hardhat run --network rinkeby scripts/deploy.js
 ```
-- Ethernaut ![](./DeployingBox.png)
+- Deploying Box ![](./DeployingBox.png)
 
 
 ### 2. 共同討論完成所有 Ethernaut 題目
