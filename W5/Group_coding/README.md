@@ -2,9 +2,12 @@
 ```
   npx hardhat run --network rinkeby scripts/deploy.js
 ```
-
 - Deploying Box ![](./DeployingBox.png)
 
+```
+  npx hardhat run --network rinkeby scripts/transfer-ownership.js
+```
+- Transfer Ownership ![](./TransferOwnership.png)
 
 ### 2. 共同討論完成所有 Ethernaut 題目
 
