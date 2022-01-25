@@ -53,8 +53,12 @@ describe('MyToken', function () {
    - npx hardhat test ![](./uups_1.png)
 
 ### 2. 試跑此專案提供成功跑起的 DApp 截圖，簡述 Chainlink VRF 運作原理
+```
+   我從星期六一直試到星期二才成功，中間一直遇到以下問題:
+   MetaMask - RPC Error: execution reverted: ERC721: token already minted
+   最後換了幾個 Rinkeby的錢包地址才成功
+```
    - DApp ![](./DApp.png)
-
 
    Chainlink VRF 運作原理
 ```
