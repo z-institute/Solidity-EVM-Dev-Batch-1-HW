@@ -17,8 +17,8 @@
 ```
 - npm run dev - before adopt ![](./petshop1.png)
 - npm run dev - adopt success ![](./petshop2.png)
-  ![](./Metamask.png)
-  ![](./Ganache.png)
+- metamask transaction info ![](./Metamask.png)
+- ganache transactions ![](./Ganache.png)
 
 ### 2. Follow 此影片與 Github 並寫下做法與提供完成截圖
       - 如何使用 web3.js 跟區塊鏈智能合約互動與進行資安審計 / JSDC 2021
