@@ -17,7 +17,7 @@
 ```
 - npm run dev - before adopt ![](./petshop1.png)
 - npm run dev - adopt success ![](./petshop2.png)
-- metamask transaction info
+- metamask transaction info\
   ![](./Metamask.png)
 - ganache transactions ![](./Ganache.png)
 
