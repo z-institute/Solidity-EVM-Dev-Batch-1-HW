@@ -45,6 +45,20 @@ Deploy Opyn smart contract to mainnet fork of Optimism or Arbitrum, make sure th
 ### Excellent group homework
 1. [Group 3](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124005/W4/Group_coding) (BayMoore, Abner, Rainnie)
 
+## Week 5 : Solidity Smart Contract Advanced
+### Reading
+1. https://solidity-by-example.org/
+### Coding
+1. Follow the demo from the class : https://hackmd.io/n-zzpHL0RgausSlbcBDuzw?view
+2. Explain how Chainlink works : https://github.com/z-institute/Never.Fight.Twice
+3. Explain how Uniswap V3 works : https://soliditydeveloper.com/uniswap3
+### Group homework
+Follow this tutorial and explain how the upgradable contracts work : https://docs.openzeppelin.com/defender/guide-upgrades
+### Excellent homework
+1. Z21100103 [(Walter)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124003/W5/individual)
+2. Z21100109 [(Ethan Yeh)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W5/Individual)
+### Excellent group homework
+1. [Group 1](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124003/W5/Group_coding) (Lemonde Shazai, Walter, Ethan Yeh)
 
 # Solidity-EVM-Dev-Batch-1-HW
 ## Usage
