@@ -15,8 +15,8 @@
      - /src/js/app.js
      - npm run dev
 ```
-- npm run dev ![](./petshop1.png)
-  ![](./petshop2.png)
+- npm run dev - before adopt ![](./petshop1.png)
+- npm run dev - adopt success ![](./petshop2.png)
   ![](./Metamask.png)
   ![](./Ganache.png)
 
