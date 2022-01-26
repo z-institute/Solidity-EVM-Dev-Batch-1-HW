@@ -8,7 +8,7 @@ App = {
       var petsRow = $('#petsRow');
       var petTemplate = $('#petTemplate');
 
-      for (i = 0; i < data.length; i ++) {
+      for (i = 0; i < data.length; i++ ) {
         petTemplate.find('.panel-title').text(data[i].name);
         petTemplate.find('img').attr('src', data[i].picture);
         petTemplate.find('.pet-breed').text(data[i].breed);
@@ -23,13 +23,15 @@ App = {
     return await App.initWeb3();
   },
 
+  // 實例化 web3
   initWeb3: async function() {
     // Modern dapp browsers...
     if (window.ethereum) {
       App.web3Provider = window.ethereum;
       try {
         // Request account access
-        await window.ethereum.enable();
+        // await window.ethereum.enable();
+        await window.ethereum.request({ method: "eth_requestAccounts" });;
       } catch (error) {
         // User denied account access...
         console.error("User denied account access")
@@ -48,10 +50,11 @@ App = {
     return App.initContract();
   },
 
+  // 實例化合約
   initContract: function() {
     $.getJSON('Adoption.json', function(data) {
       // Get the necessary contract artifact file and instantiate it with truffle-contract
-      var AdoptionArtifact = data;
+      var AdoptionArtifact = data;  // Artifacts 是關於我們合約的信息
       App.contracts.Adoption = TruffleContract(AdoptionArtifact);
 
       // Set the provider for our contract
@@ -68,15 +71,18 @@ App = {
     $(document).on('click', '.btn-adopt', App.handleAdopt);
   },
 
+  // 獲取領養寵物並更新 UI
   markAdopted: function(adopters, account) {
     var adoptionInstance;
 
     App.contracts.Adoption.deployed().then(function(instance) {
       adoptionInstance = instance;
 
+      // 使用call()允許我們從區塊鏈讀取數據而無需發送完整的交易，這意味著我們不必花費任何以太幣
       return adoptionInstance.getAdopters.call();
     }).then(function(adopters) {
       for (i = 0; i < adopters.length; i++) {
+        // 檢查是否為每隻寵物存儲了一個地址
         if (adopters[i] !== '0x0000000000000000000000000000000000000000') {
           $('.panel-pet').eq(i).find('button').text('Success').attr('disabled', true);
         }
@@ -86,6 +92,7 @@ App = {
     });
   },
 
+  // handleAdopt
   handleAdopt: function(event) {
     event.preventDefault();
 
@@ -98,12 +105,12 @@ App = {
         console.log(error);
       }
 
-      var account = accounts[0];
+      var account = accounts[0];  // 選擇第一個帳戶
 
       App.contracts.Adoption.deployed().then(function(instance) {
         adoptionInstance = instance;
 
-        // Execute adopt as a transaction by sending account
+        // Execute adopt as a transaction 寫入函數 by sending account
         return adoptionInstance.adopt(petId, {from: account});
       }).then(function(result) {
         return App.markAdopted();
