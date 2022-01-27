@@ -38,3 +38,7 @@
     F. 完成之後開啟 coverage/index.html
 ```
 - coverage/index.html ![](./index_html.png)
+
+### 2.加分題：搭配文檔，嘗試讀懂 Opyn 合約，並用自己的話以『英文』說明 Opyn 的智能合約架構，各個合約如何彼此互動。
+  vault 保險庫
+  collateral 抵押品
