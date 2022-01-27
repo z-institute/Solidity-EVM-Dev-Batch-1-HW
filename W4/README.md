@@ -1,4 +1,5 @@
 ### individual
+1. 完成 Resume
 2. 完成 ChainShot 所有 Lesson 並提供截圖
 3. 完成 Lesson 1 Making the Zombie Factory &  Lesson2 Zombies Attack Their Victims
 
