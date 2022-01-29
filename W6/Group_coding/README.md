@@ -20,3 +20,7 @@
 ### 3. 將此客製化前端專案上傳至 GitHub group folder 並寫 README 說明如何在 local 跑起專案
 
 ### 4. 共同討論完成此網站範例習題：https://capturetheether.com/
+```js
+  - 持續進行中
+```
+- Walter 850 points 截圖 ![](./hw4_score.png)
