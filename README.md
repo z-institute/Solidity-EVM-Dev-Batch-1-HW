@@ -7,6 +7,7 @@ This is Ethan Homework Page.
 - [W3](W3/README.md)
 - [W4](W4/README.md)
 - [W5](W5/README.md)
+- [W6](W6/README.md)
 
 ## Authors
 

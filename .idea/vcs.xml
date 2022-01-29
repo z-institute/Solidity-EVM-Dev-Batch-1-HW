@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/W2/Individual/coding/demo-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/W6/Group_coding/hw_1/pancake-frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/W6/Group_coding/hw_1/pancake-toolkit" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/my-resume" vcs="Git" />
   </component>
 </project>
