@@ -1,4 +1,18 @@
 ### 1. 根據 pancake-toolkie README 跑起此前端，並將 Logo 和項目名稱換成自己的小組隊名
+```js
+  - git clone https://github.com/pancakeswap/pancake-frontend.git
+  - cd pancake-frontend/
+  - yarn
+  - cat package.json
+  - yarn build
+  - yarn start
+```
+- yarn build 截圖 ![](./hw1_yarn_build.png)
+- yarn start 截圖 ![](./hw1_yarn_start.png)
+```js
+  - 
+```
+- localhost:3000 截圖 ![](./hw1_yarn_start.png)
 
 ### 2. 將以上網頁部署至 https://www.netlify.com/ 並提供網址
 
