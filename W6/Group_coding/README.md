@@ -15,7 +15,6 @@
 - localhost:3000 截圖 ![](./hw2_localhost.png)
 
 ### 2. 將以上網頁部署至 https://www.netlify.com/ 並提供網址
-- 網址 https://reverent-kepler-52dd21.netlify.app/
 
 ### 3. 將此客製化前端專案上傳至 GitHub group folder 並寫 README 說明如何在 local 跑起專案
 ```js
