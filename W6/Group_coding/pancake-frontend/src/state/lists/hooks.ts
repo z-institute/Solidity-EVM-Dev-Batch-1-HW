@@ -39,6 +39,7 @@ export class WrappedTokenInfo extends Token {
   }
 
   public get logoURI(): string | undefined {
+    console.log(this.tokenInfo.logoURI)
     return this.tokenInfo.logoURI
   }
 }
