@@ -10,7 +10,7 @@
 - yarn build 截圖 ![](./hw1_yarn_build.png)
 - yarn start 截圖 ![](./hw1_yarn_start.png)
 ```js
-  - 
+  - 找出 React / Typescript 對應的 code，修改 Logo 和項目名稱換成自己的小組隊名
 ```
 - localhost:3000 截圖 ![](./hw1_yarn_start.png)
 
