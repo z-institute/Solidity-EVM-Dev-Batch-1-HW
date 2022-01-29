@@ -15,6 +15,7 @@
 - localhost:3000 截圖 ![](./hw1_yarn_start.png)
 
 ### 2. 將以上網頁部署至 https://www.netlify.com/ 並提供網址
+- 網址 https://wizardly-volhard-dbb26c.netlify.app/
 
 ### 3. 將此客製化前端專案上傳至 GitHub group folder 並寫 README 說明如何在 local 跑起專案
 
