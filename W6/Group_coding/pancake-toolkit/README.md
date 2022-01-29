@@ -1,21 +1,27 @@
-### 1. 根據 pancake-toolkie README 跑起此前端，並將 Logo 和項目名稱換成自己的小組隊名
-```js
-  - git clone https://github.com/pancakeswap/pancake-frontend.git
-  - cd pancake-frontend/
-  - yarn
-  - cat package.json
-  - yarn build
-  - yarn start
+# Pancake Toolkit
+
+This repository is a monorepo manage with [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) and [Lerna](https://lerna.js.org/). 
+
+## Packages
+
+- [pancake-uikit](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit) : React components used to build the Pancake UI
+- [eslint-config-pancake](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake) : An ESLint config for pancake, with Typescript and Prettier support
+- [pancake-profile-sdk](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-profile-sdk) : Handy functions to retrieve data for Pancakeswap Profile system
+- [token-lists](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/token-lists) : Main PancakeSwap token list and tools to validate it
+
+## How to use
+
+Clone the repository 
+
 ```
-- yarn build 截圖 ![](./hw1_yarn_build.png)
-- yarn start 截圖 ![](./hw1_yarn_start.png)
-```js
-  - 找出 React / Typescript 對應的 code，修改 Logo 和項目名稱換成自己的小組隊名
+git clone git@github.com:pancakeswap/pancake-toolkit.git
 ```
-- localhost:3000 截圖 ![](./hw1_yarn_start.png)
 
-### 2. 將以上網頁部署至 https://www.netlify.com/ 並提供網址
+Run yarn at the root of the workspace
 
-### 3. 將此客製化前端專案上傳至 GitHub group folder 並寫 README 說明如何在 local 跑起專案
+```
+cd pancake-toolkit
+yarn
+```
 
-### 4. 共同討論完成此網站範例習題：https://capturetheether.com/
+Then, refer to the readme of each project.
