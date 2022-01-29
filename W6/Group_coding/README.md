@@ -18,6 +18,11 @@
 - 網址 https://wizardly-volhard-dbb26c.netlify.app/
 
 ### 3. 將此客製化前端專案上傳至 GitHub group folder 並寫 README 說明如何在 local 跑起專案
+```js
+  - cd pancake-frontend/
+  - yarn
+  - yarn start
+```
 
 ### 4. 共同討論完成此網站範例習題：https://capturetheether.com/
 ```js
