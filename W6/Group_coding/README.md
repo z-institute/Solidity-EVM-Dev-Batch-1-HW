@@ -12,7 +12,7 @@
 ```js
   - 找出 React / Typescript 對應的 code，修改 Logo 和項目名稱換成自己的小組隊名
 ```
-- localhost:3000 截圖 ![](./hw1_yarn_start.png)
+- localhost:3000 截圖 ![](./hw2_localhost.png)
 
 ### 2. 將以上網頁部署至 https://www.netlify.com/ 並提供網址
 - 網址 https://wizardly-volhard-dbb26c.netlify.app/
