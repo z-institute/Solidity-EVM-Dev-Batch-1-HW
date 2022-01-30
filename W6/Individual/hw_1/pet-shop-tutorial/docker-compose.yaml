@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  w6_individual_hw_1:
+    container_name: w6_individual_hw_1
+    tty: true
+    stdin_open: true
+    working_dir: /app
+    entrypoint: /bin/sh
+    build:
+      context: .
+      args:
+        - NODEJS_VERSION=gallium
+    volumes:
+      - ./:/app
