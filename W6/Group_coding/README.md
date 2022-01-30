@@ -28,3 +28,4 @@ yarn dev
 # Remember to remove .next foler, otherwise your changes will not take effect!
 ```
 ### 4. 共同討論完成此網站範例習題：https://capturetheether.com/
+![](./0130_2.png)
