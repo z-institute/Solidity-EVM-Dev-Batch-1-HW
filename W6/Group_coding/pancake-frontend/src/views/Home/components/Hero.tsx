@@ -107,7 +107,7 @@ const Hero = () => {
       >
         <Flex height={'100vh'} flex="1" flexDirection="column">
           <Heading scale="xxl" color="secondary" mt="180px" mb="24px">
-            {t('The Loops will create the new world.')}
+            {t('The moon is made of pancakes.')}
           </Heading>
           <Heading scale="md" mt="48px" mb="24px">
             {t('Trade, earn, and win crypto on the most popular decentralized platform in the galaxy.')}

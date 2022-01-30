@@ -181,8 +181,7 @@ const ContributeModal: React.FC<Props> = ({
                 src={
                   ifo.currency.symbol === 'CAKE'
                     ? '/images/cake.svg'
-                    : '/images/cake.svg'
-                    // : `/images/farms/${currency.symbol.split(' ')[0].toLocaleLowerCase()}.svg`
+                    : `/images/farms/${currency.symbol.split(' ')[0].toLocaleLowerCase()}.svg`
                 }
                 width={24}
                 height={24}

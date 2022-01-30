@@ -5,7 +5,9 @@
   "scripts": {
     "analyze": "ANALYZE=true yarn build",
     "dev": "next dev",
-    "build": "next build",
+		"build": "next build",
+    "build 1": "next build && sudo rm -rf node_modules/@pancakeswap/uikit/dist && sudo cp -fR dist node_modules/@pancakeswap/uikit && sudo rm -rf dist",
+    "build 2": "next build && rm -rf node_modules/@pancakeswap/uikit/dist && cp -fR dist node_modules/@pancakeswap/uikit && rm -rf dist",
     "start": "next start",
     "test": "jest",
     "test:config": "jest src/__tests__/config/ --testPathIgnorePatterns",

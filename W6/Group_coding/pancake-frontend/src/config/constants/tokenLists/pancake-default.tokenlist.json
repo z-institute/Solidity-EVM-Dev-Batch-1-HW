@@ -7,7 +7,7 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "/images/cake.svg",
+  "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": ["pancake", "default"],
   "tokens": [
     {
