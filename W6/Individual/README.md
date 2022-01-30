@@ -237,3 +237,40 @@ npm run dev
 ![](PetShop2.png)
 5. And in MetaMask, you'll see the transaction listed:
 ![](PetShop3.png)
+
+# Web3 Demo
+
+1. Installation
+```
+yarn init
+yarn add @truffle/hdwallet-provider
+yarn add dotenv
+yarn add web3
+```
+
+2. Import an account from its private key
+```
+// demo-web3/.env
+projectID=
+privateKey=
+```
+
+3. See if the account is recovered from private key successfully
+```
+node index
+```
+
+4. Get ETH balance of an address
+
+- Press Enter
+
+5. Set up smart contract
+  - Go to https://remix.ethereum.org/ and deploy a Storage contract
+  - Copy ABI and contract address after deployment succeed
+  - Run this script
+
+6. Interact with the smart contract
+  - Set the contract value to 700
+  - View receipt of the transaction we just sent
+
+![](web3.png)
