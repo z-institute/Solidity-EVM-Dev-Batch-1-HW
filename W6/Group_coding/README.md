@@ -13,6 +13,8 @@
   - 找出 React / Typescript 對應的 code，修改 Logo 和項目名稱換成自己的小組隊名
   PS: refer to https://hackmd.io/oqGJjQe6TFO-Uk8IlJ7JHA?view
 ```
+- pancake-uikit Logo 截圖 ![](./hw2_logo.png)
+- pancake-uikit LogowithText 截圖 ![](./hw2_logowithtext.png)
 - localhost:3000 截圖 ![](./hw2_localhost.png)
 
 ### 2. 將以上網頁部署至 https://www.netlify.com/ 並提供網址
@@ -25,7 +27,7 @@
 
   PS: refer to https://stackoverflow.com/questions/54527465/no-node-modules-from-netlify-deploy
 ```
-- 
+-
 
 ### 3. 將此客製化前端專案上傳至 GitHub group folder 並寫 README 說明如何在 local 跑起專案
 ```js
