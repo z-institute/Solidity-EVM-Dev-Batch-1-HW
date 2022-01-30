@@ -26,8 +26,9 @@
   4. deploy
 
   PS: refer to https://stackoverflow.com/questions/54527465/no-node-modules-from-netlify-deploy
+  PS: 試過幾次 build command 的不同 overwrite，也在 vercel 上佈署，都無法替換掉 logo，故改裝在 Ubuntu 21.10，利用 pm2 佈署
 ```
--
+- http://pkswap.aisw.in:3000
 
 ### 3. 將此客製化前端專案上傳至 GitHub group folder 並寫 README 說明如何在 local 跑起專案
 ```js
