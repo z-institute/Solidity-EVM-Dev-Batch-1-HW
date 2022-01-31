@@ -16,7 +16,7 @@ Please refer to the following link and customize your own blockchain : https://p
 3. [Group 3](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124005/W2/Group_coding) (BayMoore, Abner, Rainnie)
 4. [Group 4](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124011/W2/Group_coding) (Starks, George, Sammi)
 
-## Week 3 : Ethereum ecosystem and related tools
+## Week 3 : Ethereum Ecosystem and Related Tools
 ### Reading
 1. https://insights.glassnode.com/defi-attacks-flash-loans-centralized-price-oracles/
 2. https://consensys.github.io/smart-contract-best-practices/
