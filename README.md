@@ -36,7 +36,7 @@ Implement mainnet fork with hardhat, run ethereum local mainnet fork with ganach
 ## Week 4 : Solidity Smart Contract Basic
 ### Complete all these lesson and summarize what you learn
 1. https://www.chainshot.com/learn/solidity
-2. https://www.chainshot.com/learn/solidity
+2. https://cryptozombies.io/en/course
 ### Group homework
 Deploy Opyn smart contract to mainnet fork of Optimism or Arbitrum, make sure that all of the unit test and integration test pass.
 ### Excellent homework
