@@ -37,6 +37,7 @@
   Refer to our team member https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W6/Group_coding/hw_1
 ```
 - https://pancakeswap-fork.netlify.app
+- netlify 截圖 ![](./hw2_netlify.png)
 
 ### 3. 將此客製化前端專案上傳至 GitHub group folder 並寫 README 說明如何在 local 跑起專案
 ```js
