@@ -19,21 +19,33 @@
 
 ### 2. 將以上網頁部署至 https://www.netlify.com/ 並提供網址
 ```js
-  1. add github repo with @pancakeswap/uikit/dist (pancake-toolkit)
-  2. netlify build settings
-  3. build command:
-     - next build && sudo rm -rf node_modules/@pancakeswap/uikit/dist && sudo cp -fR dist node_modules/@pancakeswap/uikit && sudo rm -rf dist
-  4. deploy
-
-  PS: refer to https://stackoverflow.com/questions/54527465/no-node-modules-from-netlify-deploy
-  PS: 試過幾次 build command 的不同 overwrite，也在 vercel 上佈署，都無法替換掉 logo，故改裝在 Ubuntu 21.10，利用 pm2 佈署
+  1. add script in package.json
+     {
+       "scripts": {
+         "predev": "rm -rf .next",
+         "uikit:link": "rm -rf node_modules/@pancakeswap/uikit/dist && cp -fR ../pancake-toolkit/packages/pancake-uikit/dist node_modules/@pancakeswap/uikit/dist",
+         "prebuild": "rm -rf .next",
+       }
+     }
+  2. yarn add -D netlify-cli
+  3. netlify login
+  4. npx netlify init
+  5. add lines netlify.toml
+     [build]
+        command = "yarn build"
+  6. npx netlify deploy --build --prod
+  Refer to our team member https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W6/Group_coding/hw_1
 ```
-- http://pkswap.aisw.in:3000
+- https://pancakeswap-fork.netlify.app
 
 ### 3. 將此客製化前端專案上傳至 GitHub group folder 並寫 README 說明如何在 local 跑起專案
 ```js
-  - cd pancake-frontend/
+  - git push (pancake-frontend folder with dist from pancake-uikit)
+  - git clone https://github.com/dreamwalter/pkswap
+  - cd pkswap
   - yarn
+  - yarn build
+  - sudo rm -rf node_modules/@pancakeswap/uikit/dist && sudo cp -fR dist node_modules/@pancakeswap/uikit && sudo rm -rf dist
   - yarn start
 ```
 
