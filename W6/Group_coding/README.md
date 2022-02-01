@@ -31,7 +31,7 @@
   3. netlify login
   4. npx netlify init
 ```
-- npx netlify init 截圖 ![](./hw2_npx_netlify_init.png)
+- npx netlify init 截圖 ![](./hw2_netlify_npx_netlify_init.png)
 ```js
   5. npx netlify status
 ```
