@@ -72,5 +72,55 @@ func main() {
     }
 
     //Print the balance of tinybars
-    fmt.Println("The account balance for the new account is ", accountBalance.Hbars.AsTinybar())
+    fmt.Println("The account balance for the new account is", accountBalance.Hbars.AsTinybar())
+
+    //Transfer hbar from your testnet account to the new account
+    transaction := hedera.NewTransferTransaction().
+        AddHbarTransfer(myAccountId, hedera.HbarFrom(-1000, hedera.HbarUnits.Tinybar)).
+        AddHbarTransfer(newAccountId, hedera.HbarFrom(1000, hedera.HbarUnits.Tinybar))
+
+    //Submit the transaction to a Hedera network
+    txResponse, err := transaction.Execute(client)
+
+    if err != nil {
+        panic(err)
+    }
+
+    //Request the receipt of the transaction
+    transferReceipt, err := txResponse.GetReceipt(client)
+
+    if err != nil {
+        panic(err)
+    }
+
+    //Get the transaction consensus status
+    transactionStatus := transferReceipt.Status
+
+    fmt.Printf("The transaction consensus status is %v\n", transactionStatus)
+
+    //Create the query that you want to submit
+    balanceQuery := hedera.NewAccountBalanceQuery().
+        SetAccountID(newAccountId)
+
+    //Get the cost of the query
+    cost, err := balanceQuery.GetCost(client)
+
+    if err != nil {
+        panic(err)
+    }
+
+    fmt.Println("The account balance query cost is:", cost.String())
+
+    //Check the new account's balance
+    newAccountBalancequery := hedera.NewAccountBalanceQuery().
+        SetAccountID(newAccountId)
+
+    //Sign with client operator private key and submit the query to a Hedera network
+    newAccountBalance, err := newAccountBalancequery.Execute(client)
+    if err != nil {
+        panic(err)
+    }
+
+    //Print the balance of tinybars
+    fmt.Println("The hbar account balance for this account is", newAccountBalance.Hbars.AsTinybar())
 }
