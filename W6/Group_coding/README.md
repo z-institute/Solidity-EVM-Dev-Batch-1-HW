@@ -30,13 +30,22 @@
   2. yarn add -D netlify-cli
   3. netlify login
   4. npx netlify init
-  5. add lines netlify.toml
+```
+- npx netlify init 截圖 ![](./hw2_npx_netlify_init.png)
+```js
+  5. npx netlify status
+```
+- npx netlify status 截圖 ![](./hw2_netlify_status.png)
+```js
+  6. add lines netlify.toml
      [build]
         command = "yarn build"
-  6. npx netlify deploy --build --prod
+  7. npx netlify deploy --build --prod
   Refer to our team member https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W6/Group_coding/hw_1
 ```
-- https://pancakeswap-fork.netlify.app
+- npx netlify deploy --build --prod 截圖 ![](./hw2_netlify_deploy_build1.png)
+  ![](./hw2_netlify_deploy_build2.png)
+- https://pkswap.netlify.app
 - netlify 截圖 ![](./hw2_netlify.png)
 
 ### 3. 將此客製化前端專案上傳至 GitHub group folder 並寫 README 說明如何在 local 跑起專案
