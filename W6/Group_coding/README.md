@@ -45,6 +45,7 @@
 ```
 - npx netlify deploy --build --prod 截圖 ![](./hw2_netlify_deploy_build1.png)\
   ...\
+  ...\
   ![](./hw2_netlify_deploy_build2.png)
 - https://pkswap.netlify.app
 - netlify 截圖 ![](./hw2_netlify.png)
