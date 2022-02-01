@@ -43,7 +43,8 @@
   7. npx netlify deploy --build --prod
   Refer to our team member https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W6/Group_coding/hw_1
 ```
-- npx netlify deploy --build --prod 截圖 ![](./hw2_netlify_deploy_build1.png)
+- npx netlify deploy --build --prod 截圖 ![](./hw2_netlify_deploy_build1.png)\
+  ...\
   ![](./hw2_netlify_deploy_build2.png)
 - https://pkswap.netlify.app
 - netlify 截圖 ![](./hw2_netlify.png)
