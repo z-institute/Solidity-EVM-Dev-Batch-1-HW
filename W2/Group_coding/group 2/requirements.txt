@@ -1,0 +1,9 @@
+# Function dependencies, for example:
+# package>=version
+
+eth-utils
+eth
+py-evm 
+typing-extensions > 3.0.0
+pycryptodome
+pysha3
