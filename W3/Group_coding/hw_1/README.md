@@ -52,7 +52,7 @@ npm install --save-dev hardhat
 ```
 - install dotenv-safe
 ```shell
-npm install --save-dev surya
+npm install --save dotenv-safe
 ```
 
 - init hardhat select `Create an advanced sample project that uses TypeScript`
