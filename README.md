@@ -56,9 +56,24 @@ Deploy Opyn smart contract to mainnet fork of Optimism or Arbitrum, make sure th
 Follow this tutorial and explain how the upgradable contracts work : https://docs.openzeppelin.com/defender/guide-upgrades
 ### Excellent homework
 1. Z21100103 [(Walter)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124003/W5/individual)
-2. Z21100109 [(Ethan Yeh)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W5/Individual)
+2. Z21100104 [(Ray)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W5/Individual)
 ### Excellent group homework
 1. [Group 1](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124003/W5/Group_coding) (Lemonde Shazai, Walter, Ethan Yeh)
+
+## Week 6 : Ethereum project study and frontend integration
+### Coding
+1. Follow the demo from this tutorial : https://trufflesuite.com/tutorial/
+2. Follow this video and github : 
+    a. https://vimeo.com/640482272/8c4eb40df1
+    b. https://github.com/z-institute/Web3-Demo
+### Group homework
+1. Follow README to run this frontend and replace the logo and name with your team's.
+### Excellent homework
+1. Z21100104 [(Ethan Yeh)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W6/Individual)
+2. Z21100109 [(Ray)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124009/W6/Individual)
+### Excellent group homework
+1. [Group 1](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124003/W6/Group_coding) (Lemonde Shazai, Walter, Ethan Yeh)
+2. [Group 4](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124010/W6/Group_coding) (Starks, George, Sammi)
 
 # Solidity-EVM-Dev-Batch-1-HW
 ## Usage
