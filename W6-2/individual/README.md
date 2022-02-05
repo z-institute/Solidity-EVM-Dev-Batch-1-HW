@@ -40,6 +40,7 @@
 ```
 
 ### 3. Follow 此教學寫下步驟並提供完成截圖，簡述 ERC721 與 ERC721A 的差別
+#### 步驟
 ```php
   - git clone https://github.com/chiru-labs/ERC721A.git
   - npm install --save-dev erc721a
@@ -78,6 +79,7 @@
     - uint256 internal currentIndex;
 ```
 
+#### 簡述 ERC721 與 ERC721A 的差別
   以下為 ERC721A.sol 和 ERC721.sol 新增和差異的部份
 ```php
   new variable:
