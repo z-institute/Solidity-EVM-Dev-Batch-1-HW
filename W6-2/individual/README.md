@@ -44,6 +44,7 @@
   - git clone https://github.com/chiru-labs/ERC721A.git
   - npm install --save-dev erc721a
   - npm install hardhat-gas-reporter
+  - 在 hardhat.config.js 新增 require('hardhat-gas-reporter')
   - npm install
   - npm run node
   - npm test
