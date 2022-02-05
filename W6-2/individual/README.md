@@ -54,6 +54,8 @@
            ![](./721a_npm_test2.png)
 - hardhat gas reporter ![](./721a_gas_reporter.png)
 
+
+#### 簡述 ERC721 與 ERC721A 的差別
   ERC721A 主要是針對 mint 多個 NFT 能和 mint 單一 NFT 幾乎一樣的 Gas fee，故有以下的變動
   1. 新增三個變數 struct TokenOwnership, struct AddressData, uint256 currentIndex
   2. 新增兩個 mapping 變數　_ownerships, _addressData 用以取代 _owners, _balances
@@ -79,7 +81,6 @@
     - uint256 internal currentIndex;
 ```
 
-#### 簡述 ERC721 與 ERC721A 的差別
   以下為 ERC721A.sol 和 ERC721.sol 新增和差異的部份
 ```php
   new variable:
