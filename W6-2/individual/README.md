@@ -61,7 +61,7 @@
   2. 新增兩個 mapping 變數　_ownerships, _addressData 用以取代 _owners, _balances
   3. 覆寫 IERC721Enumerable 介面的 totalSupply, tokenByIndex, tokenOfOwnerByIndex 函數
   4. 因應 mint 多個NFT，改寫 _mint, _transfer　使其和新增的結構變數 TokenOwnership, AddressData 的 instance 能完整交互
-  5. 在 _mint, _transfer, ownershipOf, tokenOfOwnerByIndex 函數使用 unchecked block，因為 mint NFT 數量沒有整數溢出問題，也就是變數永遠不會溢出，一旦 disable，表示能節省不少的 Gas Fee
+  5. 在 _mint, _transfer, ownershipOf, tokenOfOwnerByIndex 函數使用 unchecked block，因為 mint NFT 數量沒有整數溢出問題，也就是變數永遠不會溢出，一旦 disable，可節省不少的 Gas Fee
 ```php
   - 從 _mint 函數比較，用 721A _mint 多個 NFT，一定會比 721 _mint 省下不少 gas fee，在於資料結構的設計和有些 721 _mint 函數內的指令執行次數和 mint NFT 次數成正比，而 721A _mint 只要執行一次
 ```
