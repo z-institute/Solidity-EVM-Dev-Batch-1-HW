@@ -1,6 +1,14 @@
 # Solidity-EVM-Dev-Batch-1-HW
 
-# ERC721A
+# 1. Follow 以下兩個教學並提供完成截圖：
+    - Getting started tutorial: [https://docs.hedera.com/guides/getting-started/environment-set-up](https://docs.hedera.com/guides/getting-started/environment-set-up)
+    - Create token: [https://www.youtube.com/watch?v=JZDAMScxbpU&ab_channel=Hedera](https://www.youtube.com/watch?v=JZDAMScxbpU&ab_channel=Hedera)
+    - 測試用帳號（.env）：
+ 
+ 
+   
+
+# 3. ERC721A
 ERC721A 是 Azuki 團隊推出的 ERC721 合約改良版，透過從 OpenZeppelin (OZ) ERC721Enumerable 中刪除重複存儲，並在每次 mint 請求才更新一次存儲數據而不是每 mint 一個 NFT 就更新一次，大幅降低重複的存儲gas成本
 
 ## ERC721 和 ERC721A 的差別
