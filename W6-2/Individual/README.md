@@ -13,3 +13,13 @@ node index_CreateToken.js
 
 
 ## 3.Follow 此教學寫下步驟並提供完成截圖，簡述 ERC721 與 ERC721A 的差別（文內有 GitHub 參考）：https://www.azuki.com/erc721a
+```js
+git clone https://github.com/chiru-labs/ERC721A.git
+npm install --save-dev erc721a
+npm install
+npm run node
+npm test
+```
+![](./0202_3.png)
+![](./0202_4.png)
+#### ERC721 與 ERC721A的差別
