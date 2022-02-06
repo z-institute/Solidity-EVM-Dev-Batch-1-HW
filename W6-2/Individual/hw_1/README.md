@@ -3,11 +3,6 @@
 
 ![](./screenshots/hedera-portal.png)
 
-- [Follow Create Account Step](#create-account)
-
-
-# Step
-- follow [Create Token](https://www.youtube.com/watch?v=JZDAMScxbpU&ab_channel=Hedera)
 
 ## Environment Set Up
 - create a script

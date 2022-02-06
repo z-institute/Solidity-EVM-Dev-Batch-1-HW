@@ -276,7 +276,9 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata {
 
 `ERC721A`
 - Per batch mint only set start mint tokenId to ownership (`_ownerships[startTokenId].addr = to`), retrieving ownership by computing which can save gas fee
+
 ![](./screenshots/erc721a-optimization-3.png)
+
 - Every transfer will reassign current tokenid and next tokenid  ownership to keep `ownerOf` computation correctly
 ```solidity
 contract ERC721A is Context, ERC165, IERC721, IERC721Metadata, IERC721Enumerable {
