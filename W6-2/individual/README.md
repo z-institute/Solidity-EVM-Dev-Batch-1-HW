@@ -7,7 +7,7 @@
 要執行這個yt教學需要用到兩個account，先建立 create_account.js 並創立錢包帳戶
 教學網址: https://docs.hedera.com/guides/getting-started/create-an-account
 複製網址上的代碼後新增一行顯示私鑰
-`console.log("The new account Private Key is: ", newAccountPrivateKey.toStringRaw());`
+##### `console.log("The new account Private Key is: ", newAccountPrivateKey.toStringRaw());`
 ### 執行: `node creaate_account.js`
 ![image](https://user-images.githubusercontent.com/70627447/152825186-392b1ca5-c25d-45c7-b220-509f5d78120b.png)
 ### 創建token: `node create_token.js`
