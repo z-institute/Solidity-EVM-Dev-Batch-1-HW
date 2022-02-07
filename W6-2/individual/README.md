@@ -6,6 +6,7 @@
     - 測試用帳號（.env）：
  
 # 2. 用自己的話列出 Solidity 在 Ethereum 與 Hedera 的差異
+```
 Hedera 採用 哈希圖 (Hashgraph) 共識機制，每筆交易按照時間戳排序，不能像以太坊塞錢給礦工就能被優先執行交易
 hedera上的地址為 0.0.x 開頭
 block.difficulty始終為0
@@ -13,7 +14,7 @@ block.difficulty始終為0
 在 Hedera 上透過 Javascript 引用合約的 Bytecode
 Solidity 在 Hedera 上是透過 HTS.json 做為已編輯合約的參考
 Solidity 在 Hedera 上是透過 HTS 函式庫做為參考介面程式庫
-
+```
 
 
    
