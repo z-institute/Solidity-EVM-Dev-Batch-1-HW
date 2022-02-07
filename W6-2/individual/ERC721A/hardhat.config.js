@@ -1,41 +1,30 @@
 require('@nomiclabs/hardhat-waffle');
 require('@nomiclabs/hardhat-ethers');
 require('@nomiclabs/hardhat-etherscan');
+require('dotenv').config();
 
 if (process.env.REPORT_GAS) {
   require('hardhat-gas-reporter');
 }
 
-const ALCHEMY_API_KEY = '';
-const RINKEBY_PRIVATE_KEY = '';
+// console.log(process.env, 'env');
+
+const { INFURA_API_KEY, RINKEBY_PRIVATE_KEY } = process.env;
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
 module.exports = {
-  solidity: {
-    version: '0.8.11',
-    settings: {
-      optimizer: {
-        enabled: true,
-        runs: 800,
-      },
+  solidity: '0.8.4',
+  networks: {
+    rinkeby: {
+      url: `https://rinkeby.infura.io/v3/${INFURA_API_KEY}`,
+      accounts: [`${RINKEBY_PRIVATE_KEY}`],
     },
   },
   etherscan: {
     apiKey: {
       rinkeby: '2B5ECCBS3H4YV8TYNQCSUY5GY1A39817AS',
-    },
-  },
-  networks: {
-    development: {
-      host: '127.0.0.1', // Localhost (default: none)
-      port: 8545, // Standard Ethereum port (default: none)
-      network_id: '*', // Any network (default: none)
-    },
-    rinkeby: {
-      url: `https://eth-rinkeby.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
-      accounts: [`${RINKEBY_PRIVATE_KEY}`],
     },
   },
   gasReporter: {
