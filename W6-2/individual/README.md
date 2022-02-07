@@ -1,9 +1,8 @@
 # Solidity-EVM-Dev-Batch-1-HW
 
 # 1. Follow 以下兩個教學並提供完成截圖：
-    - Getting started tutorial: [https://docs.hedera.com/guides/getting-started/environment-set-up](https://docs.hedera.com/guides/getting-started/environment-set-up)
-    - Create token: [https://www.youtube.com/watch?v=JZDAMScxbpU&ab_channel=Hedera](https://www.youtube.com/watch?v=JZDAMScxbpU&ab_channel=Hedera)
-    - 測試用帳號（.env）：
+###    - Getting started tutorial: [https://docs.hedera.com/guides/getting-started/environment-set-up](https://docs.hedera.com/guides/getting-started/environment-set-up)
+###    - Create token: [https://www.youtube.com/watch?v=JZDAMScxbpU&ab_channel=Hedera](https://www.youtube.com/watch?v=JZDAMScxbpU&ab_channel=Hedera)
     
 要執行這個yt教學需要用到兩個account，先建立 create_account.js 並創立錢包帳戶
 教學網址: https://docs.hedera.com/guides/getting-started/create-an-account
