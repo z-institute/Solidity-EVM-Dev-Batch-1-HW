@@ -8,9 +8,9 @@
 教學網址: https://docs.hedera.com/guides/getting-started/create-an-account
 複製網址上的代碼後新增一行顯示私鑰
 `console.log("The new account Private Key is: ", newAccountPrivateKey.toStringRaw());`
-執行: `node creaate_account.js`
+### 執行: `node creaate_account.js`
 ![image](https://user-images.githubusercontent.com/70627447/152825186-392b1ca5-c25d-45c7-b220-509f5d78120b.png)
-創建token: `node create_token.js`
+### 創建token: `node create_token.js`
 result:
 ![image](https://user-images.githubusercontent.com/70627447/152826125-708118d7-438a-4a12-8503-f5a0373780ed.png)
 ![image](https://user-images.githubusercontent.com/70627447/152826187-957859d5-394c-4fc6-87bd-2ab81ae83dc1.png)
