@@ -4,12 +4,25 @@
     - Getting started tutorial: [https://docs.hedera.com/guides/getting-started/environment-set-up](https://docs.hedera.com/guides/getting-started/environment-set-up)
     - Create token: [https://www.youtube.com/watch?v=JZDAMScxbpU&ab_channel=Hedera](https://www.youtube.com/watch?v=JZDAMScxbpU&ab_channel=Hedera)
     - 測試用帳號（.env）：
+    
+要執行這個yt教學需要用到兩個account，先建立 create_account.js 並創立錢包帳戶
+教學網址: https://docs.hedera.com/guides/getting-started/create-an-account
+執行: `node creaate_account.js`
+![image](https://user-images.githubusercontent.com/70627447/152825186-392b1ca5-c25d-45c7-b220-509f5d78120b.png)
+創建token: `node create_token.js`
+result:
+![image](https://user-images.githubusercontent.com/70627447/152826125-708118d7-438a-4a12-8503-f5a0373780ed.png)
+![image](https://user-images.githubusercontent.com/70627447/152826187-957859d5-394c-4fc6-87bd-2ab81ae83dc1.png)
  
+
 # 2. 用自己的話列出 Solidity 在 Ethereum 與 Hedera 的差異
+https://hedera.com/get-started
+這邊可以找到成為 Hedera 開發者與用戶的背景知識
 ```
 Hedera 採用 哈希圖 (Hashgraph) 共識機制，每筆交易按照時間戳排序，不能像以太坊塞錢給礦工就能被優先執行交易
-hedera上的地址為 0.0.x 開頭
-block.difficulty始終為0
+Hedera 節點分為共識節點和鏡像節點，共識節點需要通過委員會審核(有中心化的疑慮???)，能向接收交易並為網路的共識做出貢獻，鏡像節點只能儲存交易紀錄權限很小
+Hedera 上的地址為 0.0.x 開頭
+Hedera 的 block.difficulty始終為0
 在 Hedera 上 NFT和token 為原生資產，不用產生 ERC20、ERC721合約
 在 Hedera 上透過 Javascript 引用合約的 Bytecode
 Solidity 在 Hedera 上是透過 HTS.json 做為已編輯合約的參考
