@@ -1,29 +1,14 @@
-Mainnet fork with linode
+1. pancake-toolkit
 
-1.Linux side:
-nohup ganache-cli --fork https://mainnet.infura.io/v3/128da609d4284200abfb61efc6ebc545 --chainId 1 -h 0.0.0.0 &
-less nohup.out
+![image](https://user-images.githubusercontent.com/7067720/153141368-044b15f5-ec7c-4f86-84f8-9465e81d90cc.png)
 
-#A
-![image](https://user-images.githubusercontent.com/7067720/149081009-df8b4e66-f302-472f-8a84-7222dcfffba5.png)
+2.網頁部署至 https://www.netlify.com/ 並提供網址
 
-#B
-![image](https://user-images.githubusercontent.com/7067720/149081091-68b8f233-9fdd-4872-9686-4591b33c7a17.png)
+a. https://hopeful-feynman-df3e76.netlify.app/
 
-#C
-![image](https://user-images.githubusercontent.com/7067720/149085842-9ae02194-7b10-4950-bcac-3c84bdd44634.png)
+b. ![image](https://user-images.githubusercontent.com/7067720/153141689-7115b3a7-a5af-4b62-b50e-f935bf9d7f84.png)
 
 
+3. capturetheether (on going)
+![image](https://user-images.githubusercontent.com/7067720/153141942-873926a0-3709-4a71-a14f-c0ccc24e7fd9.png)
 
-
-
-2.Metamask side:
-![image](https://user-images.githubusercontent.com/7067720/148654630-d637a85c-e1e6-49ac-8063-8f0a6413a682.png)
-
-
-
-
-3.Process manager
-
-  #install procps
-  apt install procps
