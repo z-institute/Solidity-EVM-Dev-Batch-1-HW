@@ -27,7 +27,7 @@ Implement mainnet fork with hardhat, run ethereum local mainnet fork with ganach
 ### Excellent homework
 1. Z21100102 [(Samuel)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124002/W3/individual)
 2. Z21100103 [(Walter)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124003/W3/individual/reading_and_summary)
-3. Z21100104 [(Etha Yeh)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W3/Individual)
+3. Z21100104 [(Ethan Yeh)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W3/Individual)
 ### Excellent group homework
 1. [Group 1](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124003/W3/Group_coding) (Lemonde Shazai, Walter, Ethan Yeh)
 2. [Group 2](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124002/W3/Group_coding) (Samuel, Ray, Knife)
@@ -56,7 +56,7 @@ Deploy Opyn smart contract to mainnet fork of Optimism or Arbitrum, make sure th
 Follow this tutorial and explain how the upgradable contracts work : https://docs.openzeppelin.com/defender/guide-upgrades
 ### Excellent homework
 1. Z21100103 [(Walter)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124003/W5/individual)
-2. Z21100104 [(Ray)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W5/Individual)
+2. Z21100104 [(Ethan Yeh)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W5/Individual)
 ### Excellent group homework
 1. [Group 1](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124003/W5/Group_coding) (Lemonde Shazai, Walter, Ethan Yeh)
 
