@@ -87,8 +87,10 @@ MY_PRIVATE_KEY = "302e020100300506032b657004220420985f7564f45ae72b3177303d6cf709
 MY_ACCOUNT_ID_2 = "0.0.29662825"
 MY_PRIVATE_KEY_2 = "efcbec01e9cca5e0c3700309f7e033b630dfe0ef81938f40044935b56a69a8ae"
 ```
-8. Create an index.js file
+8. Create an index.js file in the root directory
 ```
+// hello-hedera-js-sdk/index.js
+
 require("dotenv").config('');
 
 const {Client, AccountId, PrivateKey, TokenCreateTransaction, TokenAssociateTransaction, TransferTransaction, AccountBalanceQuery} = require("@hashgraph/sdk");
@@ -149,6 +151,10 @@ async function main() {
 }
 
 main();
+```
+9. Create and Transfer Fungible Token
+```
+node index.js
 ```
 ![](Hedera2.png)
 ![](Hedera3.png)
