@@ -174,3 +174,45 @@ node index.js
 - Ethereum: Blocks are settled across a single and longest chain over the agreement of the miner. However, over creating two blocks, one of them is discarded to cater to the purpose.
 
 - Hedera: Hashgraph does not discard any transaction, which makes it more efficient than the other blockchains. All branches tend to exist, which are woven together as a single unit.
+
+# ERC721A
+
+1. Create a new directory for our sample & move into it
+```
+mkdir demo-erc721a && cd demo-erc721a
+```
+2. Initialize a node.js project in this new directory
+```
+npm init
+```
+3. Install the Hedera JavaScript SDK
+```
+npm install --save erc721a
+```
+4. Connect to Remix IDE
+```
+remixd -s /Users/raychiu/Z/demo-erc721a --remix-ide https://remix.ethereum.org
+```
+6. Create a Test.sol file
+```
+// demo-erc721a/Test.sol
+
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity ^0.8.4;
+
+import "erc721a/contracts/ERC721A.sol";
+
+contract Azuki is ERC721A {
+  constructor() ERC721A("Azuki", "AZUKI") {}
+
+  function mint(uint256 quantity) external payable {
+    // _safeMint's second argument now takes in a quantity, not a tokenId.
+    _safeMint(msg.sender, quantity);
+  }
+}
+```
+5. Deploy and mint NFT
+- Mint 1 NFT
+![](erc721a_1.png)
+- Mint 5 NFTs
+![](erc721a_2.png)
