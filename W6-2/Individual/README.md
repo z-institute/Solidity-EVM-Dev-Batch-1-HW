@@ -158,3 +158,19 @@ node index.js
 ```
 ![](Hedera2.png)
 ![](Hedera3.png)
+
+# Solidity 在 Ethereum 與 Hedera 的差異
+
+- Hedera Hashgraph operates across the hashgraph consensus algorithm.
+
+- Hashgraph controls the branches of the blocks by putting them back into the ledger’s body.
+
+- Ethereum: A basic Proof-of-Work mechanism that selects a single miner for choosing the next block of the blockchain.
+
+- Hedera: The project believes in the agreement of the community of nodes running across the hashgraph over which they shall be allowed to add a transaction across the ledger.
+
+- Hedera: Once the community of nodes confirms the transaction’s validity within an appropriate time, the state of the ledger is to be updated with finality.
+
+- Ethereum: Blocks are settled across a single and longest chain over the agreement of the miner. However, over creating two blocks, one of them is discarded to cater to the purpose.
+
+- Hedera: Hashgraph does not discard any transaction, which makes it more efficient than the other blockchains. All branches tend to exist, which are woven together as a single unit.
