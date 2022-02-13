@@ -216,3 +216,14 @@ contract Azuki is ERC721A {
 ![](erc721a_1.png)
 - Mint 5 NFTs
 ![](erc721a_2.png)
+
+## ERC721 與 ERC721A 的差別
+The Azuki contract will enable minting multiple NFTs for essentially the same cost of minting a single NFT.
+
+- Removing duplicate storage from OpenZeppelin’s ERC721Enumerable
+    - IERC721Enumerable: Includes redundant storage of each token’s metadata.
+    - ERC721A: Tokens are serially numbered starting from 0 lets ERC721A remove some redundant storage from the base implementation.
+- Updating the owner’s balance once per batch mint request, instead of per minted NFT
+    - In Solidity, it costs gas to update a stored value. Therefore, tracking in storage how many tokens user owns, it would be cheaper with one update.
+- Updating the owner data once per batch mint request, instead of per minted NFT
+    - Save the owner value just once in a way that semantically implies that user owns all of those tokens.
