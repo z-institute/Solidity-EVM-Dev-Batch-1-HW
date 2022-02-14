@@ -1,4 +1,5 @@
-# Excellent homework show
+# Excellent homework showcase
+The Z Institute provides two month interactive Ethereum developer training course, bringing engineers from web 2.0 to web 3.0. The excellent homeworks of the students are all open sourced. Feel free to share this with interested developers or join our [Discord](https://discord.gg/MTTgzdnXpS) to give us feedback! 
 ## Week 2 : Ethereum Basics
 ### Reading
 1. https://www.coindesk.com/tech/2020/11/11/ethereums-unannounced-hard-fork-was-trying-to-prevent-the-very-disruption-it-caused/
@@ -64,8 +65,8 @@ Follow this tutorial and explain how the upgradable contracts work : https://doc
 ### Coding
 1. Follow the demo from this tutorial : https://trufflesuite.com/tutorial/
 2. Follow this video and github : 
-    a. https://vimeo.com/640482272/8c4eb40df1
-    b. https://github.com/z-institute/Web3-Demo
+    - https://vimeo.com/640482272/8c4eb40df1
+    - https://github.com/z-institute/Web3-Demo
 ### Group homework
 1. Follow README to run this frontend and replace the logo and name with your team's.
 ### Excellent homework
@@ -74,6 +75,19 @@ Follow this tutorial and explain how the upgradable contracts work : https://doc
 ### Excellent group homework
 1. [Group 1](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124003/W6/Group_coding) (Lemonde Shazai, Walter, Ethan Yeh)
 2. [Group 4](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124010/W6/Group_coding) (Starks, George, Sammi)
+
+## Week 6-2 :
+### Coding
+1. Follow the demo from these tutorials：
+    - Getting started tutorial: [https://docs.hedera.com/guides/getting-started/environment-set-up](https://docs.hedera.com/guides/getting-started/environment-set-up)
+    - Create token: [https://www.youtube.com/watch?v=JZDAMScxbpU&ab_channel=Hedera](https://www.youtube.com/watch?v=JZDAMScxbpU&ab_channel=Hedera)
+2. As mentioned above, please list the differences between Solidity in Ethereum and Hedera.
+3. Follow this tutorial and list the difference between ERC721 and ERC721A：[https://www.azuki.com/erc721a](https://www.azuki.com/erc721a)
+### Excellent homework
+1. Z21100102 [(Samuel)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124002/W6-2/individual)
+2. Z21100103 [(Walter)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124003/W6-2/individual)
+3. Z21100104 [(Ethan Yeh)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124004/W6-2/Individual)
+4. Z21100110 [(George)](https://github.com/z-institute/Solidity-EVM-Dev-Batch-1-HW/tree/Z21124010/W6-2/Individual)
 
 # Solidity-EVM-Dev-Batch-1-HW
 ## Usage
