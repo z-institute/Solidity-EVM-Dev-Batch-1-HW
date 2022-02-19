@@ -19,3 +19,11 @@
 ![](./usv2_2.png)
 
 ### 4. 分享上課時未提到的智能合約相關好用工具
+    a. The Graph
+```
+- 支援 GraphQL API，從前端訪問即能一次獲得所有資訊。
+- 100% 去中心化的服務。
+- 許多 DeFi 協議已經將 The Graph 應用到產品的 production 版本中，例如：Synthetix、Uniswap、 Aragon、 Decentraland
+- 需要熟悉 AssemblyScript ，開發的學習曲線較高
+```
+    b. 請參閱[教程](https://medium.com/pelith/using-the-graph-to-get-data-from-ethereum-37cbb7b619b1)
