@@ -4,4 +4,4 @@
   Walter
 
 # License
-  MIT
+  GPL-3
