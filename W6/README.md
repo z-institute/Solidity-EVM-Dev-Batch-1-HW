@@ -2,7 +2,6 @@
 1. Follow 此教學並寫下做法與提供完成截圖
 2. Follow 此影片與 Github 並寫下做法與提供完成截圖
 
-
 ### Group_coding
 1. 根據 pancake-toolkit README 跑起此前端，並將 Logo 和項目名稱換成自己的小組隊名
 2. 將以上網頁部署至 https://www.netlify.com/ 並提供網址
