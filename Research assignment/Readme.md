@@ -15,7 +15,7 @@
     a. [https://www.certik.com/projects/safemoon](https://www.certik.com/projects/safemoon) （點選 View PDF 可查看）
 ### 3. 任選一個自己喜歡的項目，用 Miro 畫出該智能合約之簡易架構圖（EVM compatible 均可）
     a. UniswapV2 core contract
-       ![](./usv2_1.png)
-       ![](./usv2_2.png)
+![](./usv2_1.png)
+![](./usv2_2.png)
 
 ### 4. 分享上課時未提到的智能合約相關好用工具
