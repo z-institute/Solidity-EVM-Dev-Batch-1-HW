@@ -15,6 +15,34 @@ C. 針對常變動的 Metadata (GameFi)，這個標準就比較使不上力
 
 ### 2. 閱讀以下智能合約審計報告，理解後用自己的話寫下 summary 與學到了什麼
 a. [https://www.certik.com/projects/safemoon](https://www.certik.com/projects/safemoon) （點選 View PDF 可查看）
+```
+1. Project Summary
+   - 清楚列出 platform, language, github codebase, git commit
+2. Audit summary
+   - 使用 Audit Methodology 方法論 (Static Analysis, Manual Review, Testnet Deployment)
+3. Vulnerability Summary
+   - 列出弱點等級 (Critical, Major, Medium, Minor, International, Discussion)
+   - 及目前處理狀態 (Pending, Declined, Acknowledged, Partially Resolved, Resolved)
+4. Audit scope
+   - Audit 範圍
+
+a. Understandings
+   - 條列出目的、及各種機制及功能(LP Acquisition, Static Reward, Privileged Functions)
+   - Privileged Functions 羅列各種只有 Owner 能做的 Functions
+b. Findings
+   - 列出各種 Audit 的標題及嚴重等級、分類、及狀態的統計
+c. SSL_01~SSL_14
+   - 列出各種 Audit 的內容，包含 Description, Recommandation, Alleviation
+d. Appendix
+   - Finding Categories
+     - 列出 Centralization/Privilege, Gas Optimization, Logical Issue, Control Flow, Volatile Code, Coding Style, Inconsistency, Magic Numbers, Compiler Error
+     - Checksum Calucation Method 計算方式
+
+A. 和一般web2的資安審計及弱點掃描的做法很類似，報告也大致相似，羅列出 Audit 範圍、使用方法論、工具、audit的內容、等級、處理方式及建議方法及一些 workaround
+B. Solidity語言的重點，在於payable function的操作，及ownership是否安全，不被所有可能的方式取得，還包含一些寫程式可能犯的邏輯錯誤(包含低級錯誤)，已經被Crack的手法...等等經驗法則，這些是審核公司的累積知識資產，當然也是資深開發者的心血及寶貴經歷
+C. 從這個審計報告，我學習到怎麼從資安的角度去完成一個相對已知的現況，最可能不被Crack的智能合約，當然這個相互的過程，是要一直累積下去，變成開發者的基因才行
+
+```
 ### 3. 任選一個自己喜歡的項目，用 Miro 畫出該智能合約之簡易架構圖（EVM compatible 均可）
 a. UniswapV2 core contract
 ![](./usv2_1.png)
