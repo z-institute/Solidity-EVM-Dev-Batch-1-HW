@@ -17,7 +17,7 @@
 (圖為知名NFT租借協議VERA的租借NFT頁面，用戶如果想要把帳戶閒置的NFT出租出去賺取收益需要掛單設定出租條件 ex. 利息、抵押品價值，掛單後等待租客成交)  
   
 那有沒有辦法讓租客不用付出抵押品就可以租到NFT又能保證租客部不會把NFT任意轉給別人呢？有的。以往erc20標準中只會有一個mapping用來記錄這個token的owner是誰`mapping(uint256 => address) private _owners;`  
-但是在eip-2615提案中新增了一個 user role，定義如下
+但是在eip-2615提案中新增了 Lien Holder、user，定義如下
 ``` Specification
 This standard proposes three user roles: the Lien Holder, the Owner, and the User. Their rights are as follows:
 
