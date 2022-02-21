@@ -22,15 +22,14 @@
 This standard proposes three user roles: the Lien Holder, the Owner, and the User. Their rights are as follows:
 
 A Lien Holder has the right to:
-
 Transfer the Owner role
 Transfer the User role
+
 An Owner has the right to:
-
 Transfer the Owner role
 Transfer the User role
-A User has the right to:
 
+A User has the right to:
 Transfer the User role
 ```
 簡單來說現在NFT的持有者有兩種身分，一個是owner(房東)，一個是user(租客)，還有一個Lien Holder主要是負責管理出租的智能合約(房仲、第三方)。user只有這個NFT的使用權而不能把這個NFT賣掉或是轉移到其他錢包，就變得跟現實生活中租車租房很像，租客租借物品之前不再需要付出抵押品。  
