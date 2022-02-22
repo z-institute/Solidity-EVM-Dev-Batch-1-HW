@@ -34,7 +34,22 @@ Transfer the User role
 ```
 簡單來說現在NFT的持有者有兩種身分，一個是owner(房東)，一個是user(租客)，還有一個Lien Holder主要是負責管理出租的智能合約(房仲、第三方)。user只有這個NFT的使用權而不能把這個NFT賣掉或是轉移到其他錢包，就變得跟現實生活中租車租房很像，租客租借物品之前不再需要付出抵押品。  
 
-# 2. 閱讀以下智能合約審計報告，理解後用自己的話寫下 summary 與學到了什麼 
+# 2. 閱讀以下智能合約審計報告，理解後用自己的話寫下 summary 與學到了什麼 [https://www.certik.com/projects/safemoon](https://www.certik.com/projects/safemoon) （點選 View PDF 可查看） 
+### project sumary
+簡短列出這個項目在幹嘛，使用哪個語言在哪個鏈上發行  
+### Audit summary
+使用 Audit Methodology 方法論 (Static Analysis, Manual Review, Testnet Deployment)  
+### Understandings
+條列出合約的各種function、以及哪些功能只有owner能夠呼叫
+### Findings
+列出各種錯誤或是可能被攻擊的漏洞  
+Incorrect error message、Redundant code、Contract gains non-withdrawable BNBvia the swapAndLiquify function、Centralized risk in addLiquidity、Variable could be declared asconstant、Return value not handled、3rd party dependencies、Missing event emitting、Privileged ownership、Typos in the contract、The purpose of function deliver、Possible to gain ownership afterrenouncing the contract ownership、Potential sandwich attack  
+共有14個潛在的可能錯誤並列出他們各自的嚴重等級。從較輕微的error message不精確和event沒有emit，到較嚴重的例如addLiquidity過於中心化的問題都有包含進去。
+
+## summary
+整體而言和web2的審計報告蠻類似的。差別在於鏈上的世界由於可以自由為合約添加流動性，ownership的保護以及資金是否真正地去中心化，還有防範價格操縱類型的攻擊(ex. 閃電貸、三明治攻擊)就顯得更加重要。  
+像是這個合約內最大的漏洞 `SSL-04 | Centralized risk in addLiquidity` 就是因為這個合約在去中心化交易所提供流動性的所有LP token都由一個address持有，如果哪天這個address要跑路或是私鑰被盜走的話會造成非常嚴重的後果。因此審計公司就建議可以用DAO的形式來管理資金並且將ownership的權限交由多重簽名錢包而不是單一個地址管理。  
+
 
 # 3. 任選一個自己喜歡的項目，用 Miro 畫出該智能合約之簡易架構圖（EVM compatible 均可）  
 NFTX 合約架構圖:  
