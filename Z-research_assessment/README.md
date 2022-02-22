@@ -40,25 +40,25 @@ Transfer the User role
 ### Audit summary
 使用 Audit Methodology 方法論 (Static Analysis, Manual Review, Testnet Deployment)  
 ### Understandings
-條列出合約的各種function、以及哪些功能只有owner能夠呼叫
+條列出合約的各種function、以及哪些功能只有owner能夠呼叫  
 ### Findings
 列出各種錯誤或是可能被攻擊的漏洞  
 Incorrect error message、Redundant code、Contract gains non-withdrawable BNBvia the swapAndLiquify function、Centralized risk in addLiquidity、Variable could be declared asconstant、Return value not handled、3rd party dependencies、Missing event emitting、Privileged ownership、Typos in the contract、The purpose of function deliver、Possible to gain ownership afterrenouncing the contract ownership、Potential sandwich attack  
-共有14個潛在的可能錯誤並列出他們各自的嚴重等級。從較輕微的error message不精確和event沒有emit，到較嚴重的例如addLiquidity過於中心化的問題都有包含進去。
+共有14個潛在的可能錯誤並列出他們各自的嚴重等級。從較輕微的error message不精確和event沒有emit，到較嚴重的例如addLiquidity過於中心化的問題都有包含進去。  
 
 ## summary
-整體而言和web2的審計報告蠻類似的。差別在於鏈上的世界由於可以自由為合約添加流動性，ownership的保護以及資金是否真正地去中心化，還有防範價格操縱類型的攻擊(ex. 閃電貸、三明治攻擊)就顯得更加重要。  
-像是這個合約內最大的漏洞 `SSL-04 | Centralized risk in addLiquidity` 就是因為這個合約在去中心化交易所提供流動性的所有LP token都由一個address持有，如果哪天這個address要跑路或是私鑰被盜走的話會造成非常嚴重的後果。因此審計公司就建議可以用DAO的形式來管理資金並且將ownership的權限交由多重簽名錢包而不是單一個地址管理。  
+整體而言和web2的審計報告蠻類似的。差別在於鏈上的世界由於可以自由為合約添加流動性，ownership的保護以及資金是否真正地去中心化，還有防範價格操縱類型的攻擊(ex. 閃電貸、三明治攻擊)就顯得更加重要。    
+像是這個合約內最大的漏洞 `SSL-04 | Centralized risk in addLiquidity` 就是因為這個合約在去中心化交易所提供流動性的所有LP token都由一個address持有，如果哪天這個address要跑路或是私鑰被盜走的話會造成非常嚴重的後果。因此審計公司就建議可以用DAO的形式來管理資金並且將ownership的權限交由多重簽名錢包而不是單一個地址管理。    
 
 
 # 3. 任選一個自己喜歡的項目，用 Miro 畫出該智能合約之簡易架構圖（EVM compatible 均可）  
 NFTX 合約架構圖:  
-https://miro.com/app/board/uXjVOLZwNkY=/?invite_link_id=293227344446
+https://miro.com/app/board/uXjVOLZwNkY=/?invite_link_id=293227344446  
 
 # 4. 分享上課時未提到的智能合約相關好用工具  
-看到一篇有趣的文章，內容是在說alpha shark如何破解閉源合約
-function 數據庫查詢工具: https://www.4byte.directory/signatures/?bytes4_signature=0x9092f3c8
-solidity 線上反編譯器: https://ethervm.io/decompile
+看到一篇有趣的文章，內容是在說alpha shark如何破解閉源合約  
+function 數據庫查詢工具: https://www.4byte.directory/signatures/?bytes4_signature=0x9092f3c8  
+solidity 線上反編譯器: https://ethervm.io/decompile  
 
 
 
