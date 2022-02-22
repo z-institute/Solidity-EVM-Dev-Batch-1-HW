@@ -55,3 +55,11 @@ Incorrect error message、Redundant code、Contract gains non-withdrawable BNBvi
 NFTX 合約架構圖:  
 https://miro.com/app/board/uXjVOLZwNkY=/?invite_link_id=293227344446
 
+# 4. 分享上課時未提到的智能合約相關好用工具  
+看到一篇有趣的文章，內容是在說alpha shark如何破解閉源合約
+function 數據庫查詢工具: https://www.4byte.directory/signatures/?bytes4_signature=0x9092f3c8
+solidity 線上反編譯器: https://ethervm.io/decompile
+
+
+
+
