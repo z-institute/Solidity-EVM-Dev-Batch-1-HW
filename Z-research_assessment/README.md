@@ -36,3 +36,7 @@ Transfer the User role
 
 # 2. 閱讀以下智能合約審計報告，理解後用自己的話寫下 summary 與學到了什麼 
 
+# 3. 任選一個自己喜歡的項目，用 Miro 畫出該智能合約之簡易架構圖（EVM compatible 均可）  
+NFTX 合約架構圖:  
+https://miro.com/app/board/uXjVOLZwNkY=/?invite_link_id=293227344446
+
