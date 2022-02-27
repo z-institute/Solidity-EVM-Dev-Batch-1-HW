@@ -1,4 +1,4 @@
-# 考核題目
+# 考核題目 https://the-z.notion.site/Z-Smart-Contract-Research-5ea2761beec044eabd0154f87e89ba4c
 
 1. 請從此 EIP 清單中挑選一個你覺得未來可能會用到，但目前尚未被大量使用的來分享，寫下他為何重要、有哪些可能的應用場景，例如如果 xxx 項目使用此 EIP，將會造成什麼樣的效果等  
     1. [https://eips.ethereum.org/erc](https://eips.ethereum.org/erc)  
